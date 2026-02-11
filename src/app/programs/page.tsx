@@ -1,6 +1,12 @@
 import Navbar from "@/components/Navbar";
 import ProgramsGrid from "@/components/ProgramsGrid";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Professional Diploma Programmes",
+  description: "Explore our Senate-approved professional diploma programs in Finance, Digital Marketing, Governance, Supply Chain, and AI.",
+};
 
 export default function ProgramsPage() {
   return (

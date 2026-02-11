@@ -7,6 +7,12 @@ import {
   Lightbulb, HeartHandshake, Zap, Brain,
   Facebook, Twitter, Linkedin, Instagram
 } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us | Legacy of Excellence",
+  description: "Learn about NBU Business School's philosophy, mission, and vision to be a world-class British University in Nigeria.",
+};
 
 export default function AboutPage() {
   return (
