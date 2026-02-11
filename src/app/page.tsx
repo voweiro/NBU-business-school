@@ -10,59 +10,83 @@ export default function Home() {
       <Navbar />
       <HeroSlider />
 
-      {/* Introduction Section - Premium Entry */}
-      <section className="py-24 bg-white relative">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-            <div className="order-2 lg:order-1">
-              <div className="relative">
-                <div className="absolute -top-10 -left-10 w-32 h-32 bg-primary/5 rounded-full blur-3xl" />
-                <h2 className="text-[10px] font-black uppercase tracking-[0.4em] text-primary mb-6">Introduction</h2>
-                <h3 className="text-4xl md:text-5xl font-black text-slate-950 mb-8 leading-tight tracking-tight uppercase">
-                  A New Era of <br />
-                  <span className="text-primary italic font-serif">Business</span> Education.
-                </h3>
-                <p className="text-lg text-slate-800 leading-relaxed font-medium mb-10">
-                  NBU Business School is a university-based institution offering a wide range of professional and academic programs. 
-                  Our approach is characterized by rigorous coursework, practical teaching, and a robust interface with industry experts.
-                </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                  <div className="flex gap-4 items-start">
-                    <div className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center shrink-0">
-                      <Zap className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <h5 className="font-black text-slate-950 text-xs uppercase tracking-widest mb-2">Global Approach</h5>
-                      <p className="text-xs text-slate-700 font-bold leading-relaxed">Interdisciplinary focus for success in the global business environment.</p>
-                    </div>
-                  </div>
-                  <div className="flex gap-4 items-start">
-                    <div className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center shrink-0">
-                      <HeartHandshake className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <h5 className="font-black text-slate-950 text-xs uppercase tracking-widest mb-2">Career Growth</h5>
-                      <p className="text-xs text-slate-700 font-bold leading-relaxed">Dedicated internships, mentorship, and high-impact networking events.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="order-1 lg:order-2 relative group">
-              <div className="aspect-[4/5] bg-slate-100 overflow-hidden relative shadow-2xl">
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2084')] bg-cover bg-center transition-transform duration-1000 group-hover:scale-110" />
-                <div className="absolute inset-0 bg-slate-950/20" />
-                <div className="absolute bottom-8 left-8 right-8 bg-white/10 backdrop-blur-md p-8 border border-white/20">
-                  <p className="text-white font-bold text-sm italic leading-relaxed">
-                    "Fostering intellectual curiosity, innovation, and ethical decision-making to prepare the next generation of business leaders."
+      {/* Introduction Section - Dean's Welcome - Two Column Layout */}
+      <section className="py-32 bg-white relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(to_right,#f8fafc_1px,transparent_1px),linear-gradient(to_bottom,#f8fafc_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+             {/* Left Column - Dean's Message */}
+            <div className="lg:col-span-7">
+               <div className="flex items-center gap-3 mb-8">
+                  <div className="w-12 h-1 bg-primary" />
+                  <span className="text-xs font-black uppercase tracking-[0.3em] text-primary">From the Dean's Desk</span>
+               </div>
+               <h2 className="text-4xl md:text-5xl font-black text-slate-950 mb-10 leading-[1.1] uppercase tracking-tight">
+                  Welcome to <br />
+                  <span className="text-primary italic font-serif">NBU Business School.</span>
+               </h2>
+               <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
+                  <p>
+                    "Welcome to NBU Business School, a premier institution dedicated to shaping the future of business leadership in Africa and beyond. 
+                    We are more than just a school; we are a crucible for innovation, ethical leadership, and strategic thinking."
                   </p>
-                </div>
-              </div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 nbu-gradient -z-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform" />
+                  <p>
+                    "Our curriculum is meticulously designed to bridge the gap between academic theory and practical industry application. 
+                    We believe that true excellence is achieved not just in the classroom, but in the boardroom, the startup incubator, and the community."
+                  </p>
+                  <p>
+                    "I invite you to explore our programmes and discover how NBU Business School can be the catalyst for your professional transformation."
+                  </p>
+               </div>
+               
+               <div className="mt-12 flex items-center gap-6">
+                  <div className="flex flex-col">
+                     <span className="font-extrabold text-slate-900 uppercase tracking-widest text-sm">Dr. Emeka Obi</span>
+                     <span className="text-[10px] font-bold text-primary uppercase tracking-wider mb-1">
+                        BSc, BSc, MBA, MSc, PhD, MNIM, FCTI, FCA, FMNES
+                     </span>
+                     <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">Dean, NBU Business School</span>
+                  </div>
+                  <div className="h-px flex-1 bg-slate-200" />
+               </div>
+            </div>
+
+            {/* Right Column - Visual/Dean's Image */}
+            <div className="lg:col-span-5 relative">
+               <div className="aspect-[4/5] bg-slate-100 relative shadow-2xl border-8 border-white">
+                  <img
+                     src="/dean-business-school.jpg"
+                     alt="Dean of NBU Business School"
+                     className="w-full h-full object-cover"
+                  />
+                  {/* Decorative Elements */}
+                  <div className="absolute -bottom-10 -left-10 w-24 h-24 bg-primary z-10 flex items-center justify-center text-white font-black text-2xl shadow-xl">
+                     <span className="text-center text-[10px] leading-tight uppercase tracking-widest">Est.<br/><span className="text-xl">2024</span></span>
+                  </div>
+               </div>
+               <div className="absolute -z-10 top-10 -right-10 w-full h-full border-2 border-slate-900/5" />
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Statistics Section - "Why Choose Us" */}
+      <section className="py-20 bg-slate-950 text-white border-y border-white/10">
+         <div className="container mx-auto px-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-center divide-x divide-white/10">
+               {[
+                  { number: "50+", label: "World-Class Faculty" },
+                  { number: "20+", label: "Industry Partners" },
+                  { number: "100%", label: "Employment Rate" },
+                  { number: "15+", label: "Global Affiliations" }
+               ].map((stat, i) => (
+                  <div key={i} className="flex flex-col items-center p-4">
+                     <span className="text-4xl md:text-5xl font-black text-white mb-2 tracking-tight">{stat.number}</span>
+                     <span className="text-[10px] font-bold text-primary uppercase tracking-[0.2em]">{stat.label}</span>
+                  </div>
+               ))}
+            </div>
+         </div>
       </section>
 
       {/* Institutional Narrative - Vision & Mission Teaser */}
@@ -163,9 +187,11 @@ export default function Home() {
               Flagship <span className="text-primary italic font-serif">Programmes.</span>
             </h3>
           </div>
-          <ProgramsGrid limit={6} showSearchFilter={false} />
+           <ProgramsGrid limit={6} showSearchFilter={false} hideHeader={true} />
         </div>
       </section>
+
+
 
       {/* Mode of Study Highlight */}
       <section className="py-24 bg-slate-950 text-white relative h-[600px] flex items-center overflow-hidden">

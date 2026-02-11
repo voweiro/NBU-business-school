@@ -13,13 +13,15 @@ interface ProgramsGridProps {
   showSearchFilter?: boolean;
   isPaginated?: boolean;
   itemsPerPage?: number;
+  hideHeader?: boolean;
 }
 
 export default function ProgramsGrid({ 
   limit, 
   showSearchFilter = true, 
   isPaginated = false,
-  itemsPerPage = 6
+  itemsPerPage = 6,
+  hideHeader = false
 }: ProgramsGridProps) {
   const [selectedProgram, setSelectedProgram] = useState<any>(null);
   const [searchQuery, setSearchQuery] = useState("");
@@ -51,9 +53,10 @@ export default function ProgramsGrid({
   const totalPages = Math.ceil(filteredPrograms.length / itemsPerPage);
 
   return (
-    <section id="programs" className="py-32 bg-white">
+    <section id="programs" className={`bg-white ${hideHeader ? 'py-0' : 'py-32'}`}>
       <div className="container mx-auto px-4">
         {/* Section Header */}
+        {!hideHeader && (
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-10 border-b border-gray-100 pb-16">
           <div className="max-w-2xl">
             <div className="flex items-center gap-3 mb-6">
@@ -70,9 +73,11 @@ export default function ProgramsGrid({
               professionals looking to enhance their skills and drive industry innovation.
             </p>
           </div>
-          
-          {showSearchFilter && (
-            <div className="flex flex-col gap-6 w-full md:w-96">
+        </div>
+        )}
+
+        {showSearchFilter && (
+            <div className="flex flex-col gap-6 w-full md:w-96 mb-10">
               <div className="relative">
                 <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" />
                 <Input 
@@ -87,7 +92,6 @@ export default function ProgramsGrid({
               </div>
             </div>
           )}
-        </div>
 
         {showSearchFilter && (
           /* Category Filters - Horizontal Scrollable */
