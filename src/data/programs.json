@@ -19,11 +19,26 @@
       "Develop a critical understanding of corporate governance and financial reporting principles"
     ],
     "modules": [
-      {"name": "Module 1: Financial Statements and Analysis (4 weeks)", "description": "Understanding the Fundamental Financial Statements; Ratio Analysis and Performance Evaluation; Financial Forecasting and Budgeting Techniques; Cost Analysis and Management Accounting Fundamentals"},
-      {"name": "Module 2: Investment Analysis and Capital Budgeting (4 weeks)", "description": "Time Value of Money and Discounted Cash Flow Analysis; Capital Budgeting Techniques (Net Present Value, Internal Rate of Return); Risk Management and Capital Asset Pricing Model (CAPM); Mergers and Acquisitions: Financial Evaluation and Due Diligence"},
-      {"name": "Module 3: Corporate Finance and Financial Strategy (4 weeks)", "description": "Cost of Capital and Capital Structure Decisions; Dividend Policy and Shareholder Value Creation; Working Capital Management and Cash Flow Optimization; Financial Planning and Strategic Decision Making"},
-      {"name": "Module 4: Financial Reporting and Corporate Governance (4 weeks)", "description": "International Financial Reporting Standards (IFRS); Internal Controls and Risk Management Frameworks; Corporate Governance Principles and Ethical Conduct; Board Responsibilities and Financial Reporting Oversight"},
-      {"name": "Module 5: Financial Markets and Economic Trends (3 weeks)", "description": "Understanding the Financial System and Key Players; Interest Rates, Inflation, and Foreign Exchange Risk; Impact of Economic Conditions on Financial Performance; Financial Literacy for Strategic Business Leadership"}
+      {
+        "name": "Financial Statements and Analysis (4 weeks)",
+        "description": "Understanding the Fundamental Financial Statements; Ratio Analysis and Performance Evaluation; Financial Forecasting and Budgeting Techniques; Cost Analysis and Management Accounting Fundamentals"
+      },
+      {
+        "name": "Investment Analysis and Capital Budgeting (4 weeks)",
+        "description": "Time Value of Money and Discounted Cash Flow Analysis; Capital Budgeting Techniques (Net Present Value, Internal Rate of Return); Risk Management and Capital Asset Pricing Model (CAPM); Mergers and Acquisitions: Financial Evaluation and Due Diligence"
+      },
+      {
+        "name": "Corporate Finance and Financial Strategy (4 weeks)",
+        "description": "Cost of Capital and Capital Structure Decisions; Dividend Policy and Shareholder Value Creation; Working Capital Management and Cash Flow Optimization; Financial Planning and Strategic Decision Making"
+      },
+      {
+        "name": "Financial Reporting and Corporate Governance (4 weeks)",
+        "description": "International Financial Reporting Standards (IFRS); Internal Controls and Risk Management Frameworks; Corporate Governance Principles and Ethical Conduct; Board Responsibilities and Financial Reporting Oversight"
+      },
+      {
+        "name": "Financial Markets and Economic Trends (3 weeks)",
+        "description": "Understanding the Financial System and Key Players; Interest Rates, Inflation, and Foreign Exchange Risk; Impact of Economic Conditions on Financial Performance; Financial Literacy for Strategic Business Leadership"
+      }
     ],
     "target": "CEOs, COOs, CFOs, Managing Directors, Senior Managers, Non-Financial Executives, Board Members, Entrepreneurs"
   },
@@ -47,11 +62,26 @@
       "Formulate data-driven digital marketing strategies to achieve specific business objectives."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Digital Marketing (4 weeks)", "description": "The Digital Marketing Landscape and its Evolution; Understanding Customer Behavior in the Digital Age; Developing a Customer-Centric Digital Marketing Strategy; Setting SMART Goals and Measuring Marketing ROI"},
-      {"name": "Module 2: Content Marketing & Social Media Strategies (4 weeks)", "description": "Content Creation Strategies for Online Engagement; Search Engine Optimization (SEO) Fundamentals and Content Optimization; Social Media Marketing Techniques and Platform Management; Building Online Communities and Brand Advocacy"},
-      {"name": "Module 3: Search Engine Marketing (SEM) & Pay-Per-Click (PPC) Advertising (4 weeks)", "description": "Keyword Research and Search Engine Optimization Strategies; Introduction to Paid Search Advertising (PPC); Google Ads and Social Media Ads Campaign Management; Landing Page Optimization and Conversion Rate Optimization (CRO)"},
-      {"name": "Module 4: Email Marketing and Customer Relationship Management (CRM) (4 weeks)", "description": "Building Effective Email Marketing Campaigns and Automation; Utilizing Email Marketing Tools and Analytics Platforms; Customer Relationship Management (CRM) and Marketing Automation Integration; Data Segmentation and Personalization in Digital Marketing"},
-      {"name": "Module 5: Digital Analytics and Marketing Measurement (3 weeks)", "description": "Key Performance Indicators (KPIs) for Digital Marketing Campaigns; Website Analytics Tools and Data Interpretation; Tracking Campaign Performance and ROI Measurement; A/B Testing and Optimization Techniques for Continuous Improvement"}
+      {
+        "name": "Introduction to Digital Marketing (4 weeks)",
+        "description": "The Digital Marketing Landscape and its Evolution; Understanding Customer Behavior in the Digital Age; Developing a Customer-Centric Digital Marketing Strategy; Setting SMART Goals and Measuring Marketing ROI"
+      },
+      {
+        "name": "Content Marketing & Social Media Strategies (4 weeks)",
+        "description": "Content Creation Strategies for Online Engagement; Search Engine Optimization (SEO) Fundamentals and Content Optimization; Social Media Marketing Techniques and Platform Management; Building Online Communities and Brand Advocacy"
+      },
+      {
+        "name": "Search Engine Marketing (SEM) & Pay-Per-Click (PPC) Advertising (4 weeks)",
+        "description": "Keyword Research and Search Engine Optimization Strategies; Introduction to Paid Search Advertising (PPC); Google Ads and Social Media Ads Campaign Management; Landing Page Optimization and Conversion Rate Optimization (CRO)"
+      },
+      {
+        "name": "Email Marketing and Customer Relationship Management (CRM) (4 weeks)",
+        "description": "Building Effective Email Marketing Campaigns and Automation; Utilizing Email Marketing Tools and Analytics Platforms; Customer Relationship Management (CRM) and Marketing Automation Integration; Data Segmentation and Personalization in Digital Marketing"
+      },
+      {
+        "name": "Digital Analytics and Marketing Measurement (3 weeks)",
+        "description": "Key Performance Indicators (KPIs) for Digital Marketing Campaigns; Website Analytics Tools and Data Interpretation; Tracking Campaign Performance and ROI Measurement; A/B Testing and Optimization Techniques for Continuous Improvement"
+      }
     ],
     "target": "Marketing Professionals, Entrepreneurs, Business Owners, Managers, Recent Graduates, Career Changers, Sales/Customer Service Pros"
   },
@@ -75,11 +105,26 @@
       "Communicate effectively on ethical issues and civic duties related to governance."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Ethics and Governance (4 weeks)", "description": "Defining Ethics and Morality; Core Ethical Principles in Governance (e.g., Accountability, Transparency, Integrity); Ethical Dilemmas in Public Service; Legal Frameworks for Ethical Conduct in Nigeria"},
-      {"name": "Module 2: Ethical Theories and Decision-Making (4 weeks)", "description": "Utilitarianism, Deontology, and Virtue Ethics; Applying Ethical Frameworks to Governance Challenges; Ethical Leadership and Decision-Making Processes; Whistle-blowing and Ethical Reporting Mechanisms"},
-      {"name": "Module 3: Anti-Corruption and Transparency (4 weeks)", "description": "Corruption: Concepts, Causes, and Consequences; Transparency Mechanisms in Governance; The Role of Civil Society and Media in Promoting Transparency; International Anti-Corruption Initiatives"},
-      {"name": "Module 4: Civic Engagement and Good Governance (4 weeks)", "description": "The Importance of Civic Participation and Public Trust; Building a Culture of Active Citizenship; Advocacy and Lobbying for Ethical Governance; Tools and Strategies for Effective Civic Engagement"},
-      {"name": "Module 5: Ethics in Action: Case Studies and Simulations (3 weeks)", "description": "Case studies exploring ethical dilemmas in various governance contexts (e.g., public procurement, resource management, policy formulation); Simulations and role-playing exercises to practice ethical decision-making and communication skills"}
+      {
+        "name": "Introduction to Ethics and Governance (4 weeks)",
+        "description": "Defining Ethics and Morality; Core Ethical Principles in Governance (e.g., Accountability, Transparency, Integrity); Ethical Dilemmas in Public Service; Legal Frameworks for Ethical Conduct in Nigeria"
+      },
+      {
+        "name": "Ethical Theories and Decision-Making (4 weeks)",
+        "description": "Utilitarianism, Deontology, and Virtue Ethics; Applying Ethical Frameworks to Governance Challenges; Ethical Leadership and Decision-Making Processes; Whistle-blowing and Ethical Reporting Mechanisms"
+      },
+      {
+        "name": "Anti-Corruption and Transparency (4 weeks)",
+        "description": "Corruption: Concepts, Causes, and Consequences; Transparency Mechanisms in Governance; The Role of Civil Society and Media in Promoting Transparency; International Anti-Corruption Initiatives"
+      },
+      {
+        "name": "Civic Engagement and Good Governance (4 weeks)",
+        "description": "The Importance of Civic Participation and Public Trust; Building a Culture of Active Citizenship; Advocacy and Lobbying for Ethical Governance; Tools and Strategies for Effective Civic Engagement"
+      },
+      {
+        "name": "Ethics in Action: Case Studies and Simulations (3 weeks)",
+        "description": "Case studies exploring ethical dilemmas in various governance contexts (e.g., public procurement, resource management, policy formulation); Simulations and role-playing exercises to practice ethical decision-making and communication skills"
+      }
     ],
     "target": "Public servants and government officials, Civil society organization leaders, Politicians, Business professionals, Community leaders, Development practitioners"
   },
@@ -103,11 +148,26 @@
       "Communicate effectively on sustainable supply chain practices and their benefits to stakeholders."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Logistics and Sustainable Supply Chain Management (4 weeks)", "description": "Defining Sustainability and the Triple Bottom Line (Economic, Environmental, Social); The Business Case for Sustainable Supply Chain Management; Global Regulations and Standards for Sustainable Practices; Supply Chain Mapping and Sustainability Risks"},
-      {"name": "Module 2: Sustainable Sourcing and Procurement (4 weeks)", "description": "Ethical Sourcing Practices and Supplier Evaluation; Sustainable Materials Management and Life Cycle Assessment; Circular Economy Principles in Supply Chains; Managing Environmental Impact in Sourcing and Procurement"},
-      {"name": "Module 3: Sustainable Production and Operations (4 weeks)", "description": "Energy Efficiency and Resource Conservation in Manufacturing; Green Supply Chain Logistics and Sustainable Transportation; Waste Reduction and Circularity in Production Processes; Sustainable Product Design and Life Cycle Management"},
-      {"name": "Module 4: Social Responsibility and Ethical Labor Practices (4 weeks)", "description": "Labour Standards and Fair-Trade Practices in Supply Chains; Human Rights and Working Conditions in Global Supply Networks; Community Engagement and Stakeholder Management; Managing Social Risks and Promoting Supply Chain Transparency"},
-      {"name": "Module 5: Implementing and Measuring Sustainable Supply Chain Practices (3 weeks)", "description": "Developing a Sustainable Supply Chain Strategy; Integration of Sustainability with Existing Supply Chain Management Systems; Performance Measurement Metrics for Sustainability; Continuous Improvement and Innovation in Sustainable Supply Chains"}
+      {
+        "name": "Introduction to Logistics and Sustainable Supply Chain Management (4 weeks)",
+        "description": "Defining Sustainability and the Triple Bottom Line (Economic, Environmental, Social); The Business Case for Sustainable Supply Chain Management; Global Regulations and Standards for Sustainable Practices; Supply Chain Mapping and Sustainability Risks"
+      },
+      {
+        "name": "Sustainable Sourcing and Procurement (4 weeks)",
+        "description": "Ethical Sourcing Practices and Supplier Evaluation; Sustainable Materials Management and Life Cycle Assessment; Circular Economy Principles in Supply Chains; Managing Environmental Impact in Sourcing and Procurement"
+      },
+      {
+        "name": "Sustainable Production and Operations (4 weeks)",
+        "description": "Energy Efficiency and Resource Conservation in Manufacturing; Green Supply Chain Logistics and Sustainable Transportation; Waste Reduction and Circularity in Production Processes; Sustainable Product Design and Life Cycle Management"
+      },
+      {
+        "name": "Social Responsibility and Ethical Labor Practices (4 weeks)",
+        "description": "Labour Standards and Fair-Trade Practices in Supply Chains; Human Rights and Working Conditions in Global Supply Networks; Community Engagement and Stakeholder Management; Managing Social Risks and Promoting Supply Chain Transparency"
+      },
+      {
+        "name": "Implementing and Measuring Sustainable Supply Chain Practices (3 weeks)",
+        "description": "Developing a Sustainable Supply Chain Strategy; Integration of Sustainability with Existing Supply Chain Management Systems; Performance Measurement Metrics for Sustainability; Continuous Improvement and Innovation in Sustainable Supply Chains"
+      }
     ],
     "target": "Supply chain managers, Procurement professionals, Sustainability officers, Logistics and operations managers, Business owners, Purchasing agents, Regulatory compliance professionals"
   },
@@ -131,11 +191,26 @@
       "Communicate effectively about AI's potential and limitations to stakeholders within the organization."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Artificial Intelligence (4 weeks)", "description": "Defining AI and its Subfields (Machine Learning, Deep Learning); Understanding Key AI Techniques and Algorithms; Benefits and Challenges of AI for Businesses; Historical Development and Future Trends in AI"},
-      {"name": "Module 2: AI Applications in Business Development (4 weeks)", "description": "AI-powered Market Research and Customer Insights; Utilizing AI for Targeted Marketing and Sales Automation; Personalized Customer Service and Chatbots; AI in Product Development and Innovation"},
-      {"name": "Module 3: AI and Business Strategy (4 weeks)", "description": "Leveraging AI for Competitive Advantage and Market Differentiation; Integrating AI into Existing Business Processes; Developing an AI Implementation Strategy; Managing AI Adoption and Change Management"},
-      {"name": "Module 4: Data Management and AI Analytics (4 weeks)", "description": "Importance of Data Quality and Data Preparation for AI; Big Data Analytics in Business Development; Exploring Machine Learning Tools and Platforms; Data Visualization and Storytelling with AI Insights"},
-      {"name": "Module 5: Ethical Considerations of AI in Business (3 weeks)", "description": "AI Bias and Algorithmic Fairness; Data Privacy and Security Concerns with AI; Regulatory Landscape for AI in Business; Responsible AI Development and Implementation"}
+      {
+        "name": "Introduction to Artificial Intelligence (4 weeks)",
+        "description": "Defining AI and its Subfields (Machine Learning, Deep Learning); Understanding Key AI Techniques and Algorithms; Benefits and Challenges of AI for Businesses; Historical Development and Future Trends in AI"
+      },
+      {
+        "name": "AI Applications in Business Development (4 weeks)",
+        "description": "AI-powered Market Research and Customer Insights; Utilizing AI for Targeted Marketing and Sales Automation; Personalized Customer Service and Chatbots; AI in Product Development and Innovation"
+      },
+      {
+        "name": "AI and Business Strategy (4 weeks)",
+        "description": "Leveraging AI for Competitive Advantage and Market Differentiation; Integrating AI into Existing Business Processes; Developing an AI Implementation Strategy; Managing AI Adoption and Change Management"
+      },
+      {
+        "name": "Data Management and AI Analytics (4 weeks)",
+        "description": "Importance of Data Quality and Data Preparation for AI; Big Data Analytics in Business Development; Exploring Machine Learning Tools and Platforms; Data Visualization and Storytelling with AI Insights"
+      },
+      {
+        "name": "Ethical Considerations of AI in Business (3 weeks)",
+        "description": "AI Bias and Algorithmic Fairness; Data Privacy and Security Concerns with AI; Regulatory Landscape for AI in Business; Responsible AI Development and Implementation"
+      }
     ],
     "target": "Business development professionals and entrepreneurs, Marketing and sales managers, Product managers and innovation specialists, Business analysts and data scientists, Executives and business leaders"
   },
@@ -159,11 +234,26 @@
       "Articulate strategies for creating positive social impact through entrepreneurial ventures."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Development Studies (4 weeks)", "description": "Theories and Models of Development; Key Development Challenges (Poverty, Inequality, Hunger, Health); Sustainable Development Goals (SDGs) and their Role in Development; Measuring Development Progress and Impact"},
-      {"name": "Module 2: Understanding Social Entrepreneurship (4 weeks)", "description": "Defining Social Entrepreneurship and its Distinctive Features; The Business Model Canvas for Social Ventures; Identifying Social Needs and Designing Solutions; Market Analysis and Customer Targeting in the Development Context"},
-      {"name": "Module 3: Developing a Social Enterprise (4 weeks)", "description": "Business Plan Development for Social Ventures; Financial Management and Budgeting for Social Enterprises; Fundraising Strategies for Development Projects; Legal Structures and Regulatory Frameworks for Social Enterprises"},
-      {"name": "Module 4: Impact Measurement and Management (4 weeks)", "description": "Measuring Social Impact: Tools and Frameworks; Monitoring and Evaluation Strategies for Social Enterprises; Managing Risks and Ensuring Sustainability; Scaling Up Social Ventures for Greater Impact"},
-      {"name": "Module 5: Development Finance and Partnerships (3 weeks)", "description": "Accessing Funding for Development Projects; Public-Private Partnerships in Development; Microfinance and its Role in Empowering Entrepreneurs; Advocacy and Networking for Social Change"}
+      {
+        "name": "Introduction to Development Studies (4 weeks)",
+        "description": "Theories and Models of Development; Key Development Challenges (Poverty, Inequality, Hunger, Health); Sustainable Development Goals (SDGs) and their Role in Development; Measuring Development Progress and Impact"
+      },
+      {
+        "name": "Understanding Social Entrepreneurship (4 weeks)",
+        "description": "Defining Social Entrepreneurship and its Distinctive Features; The Business Model Canvas for Social Ventures; Identifying Social Needs and Designing Solutions; Market Analysis and Customer Targeting in the Development Context"
+      },
+      {
+        "name": "Developing a Social Enterprise (4 weeks)",
+        "description": "Business Plan Development for Social Ventures; Financial Management and Budgeting for Social Enterprises; Fundraising Strategies for Development Projects; Legal Structures and Regulatory Frameworks for Social Enterprises"
+      },
+      {
+        "name": "Impact Measurement and Management (4 weeks)",
+        "description": "Measuring Social Impact: Tools and Frameworks; Monitoring and Evaluation Strategies for Social Enterprises; Managing Risks and Ensuring Sustainability; Scaling Up Social Ventures for Greater Impact"
+      },
+      {
+        "name": "Development Finance and Partnerships (3 weeks)",
+        "description": "Accessing Funding for Development Projects; Public-Private Partnerships in Development; Microfinance and its Role in Empowering Entrepreneurs; Advocacy and Networking for Social Change"
+      }
     ],
     "target": "Aspiring social entrepreneurs and changemakers, Development professionals and project managers, Non-profit leaders and NGO staff, Business professionals seeking to integrate social impact, Government officials working on development programs"
   },
@@ -187,11 +277,26 @@
       "Communicate effectively on key economic issues and challenges in the petroleum energy sector."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Petroleum Energy Economics (4 weeks)", "description": "Overview of the Global Oil and Gas Industry; Fundamentals of Economic Analysis for the Petroleum Sector; Supply and Demand Dynamics in the Oil Market; Market Structures and Pricing Models in Petroleum Products"},
-      {"name": "Module 2: Exploration and Production Economics (4 weeks)", "description": "Economic Evaluation of Oil and Gas Reserves; Project Management and Cost Estimation for Petroleum Projects; Risk Assessment and Mitigation Strategies in Exploration and Production; Upstream Fiscal Regimes and Production Sharing Agreements"},
-      {"name": "Module 3: Downstream Operations and Economics (4 weeks)", "description": "Refining and Marketing of Petroleum Products; Economics of Transportation and Distribution in the Oil and Gas Industry; International Trade and Logistics in the Petroleum Sector; Downstream Regulations and Pricing Mechanisms"},
-      {"name": "Module 4: Geopolitical and Macroeconomic Influences (4 weeks)", "description": "The Role of OPEC and other Energy Agencies; Global Energy Security and Political Risks; Impact of Economic Factors on Oil and Gas Prices; The Future of Energy and Transition to Renewables"},
-      {"name": "Module 5: Investment and Financial Analysis (3 weeks)", "description": "Financial Modelling for Petroleum Projects; Capital Budgeting Techniques and Project Valuation; Risk Management and Investment Strategies; Economic Analysis for Mergers and Acquisitions in the Oil and Gas Industry"}
+      {
+        "name": "Introduction to Petroleum Energy Economics (4 weeks)",
+        "description": "Overview of the Global Oil and Gas Industry; Fundamentals of Economic Analysis for the Petroleum Sector; Supply and Demand Dynamics in the Oil Market; Market Structures and Pricing Models in Petroleum Products"
+      },
+      {
+        "name": "Exploration and Production Economics (4 weeks)",
+        "description": "Economic Evaluation of Oil and Gas Reserves; Project Management and Cost Estimation for Petroleum Projects; Risk Assessment and Mitigation Strategies in Exploration and Production; Upstream Fiscal Regimes and Production Sharing Agreements"
+      },
+      {
+        "name": "Downstream Operations and Economics (4 weeks)",
+        "description": "Refining and Marketing of Petroleum Products; Economics of Transportation and Distribution in the Oil and Gas Industry; International Trade and Logistics in the Petroleum Sector; Downstream Regulations and Pricing Mechanisms"
+      },
+      {
+        "name": "Geopolitical and Macroeconomic Influences (4 weeks)",
+        "description": "The Role of OPEC and other Energy Agencies; Global Energy Security and Political Risks; Impact of Economic Factors on Oil and Gas Prices; The Future of Energy and Transition to Renewables"
+      },
+      {
+        "name": "Investment and Financial Analysis (3 weeks)",
+        "description": "Financial Modelling for Petroleum Projects; Capital Budgeting Techniques and Project Valuation; Risk Management and Investment Strategies; Economic Analysis for Mergers and Acquisitions in the Oil and Gas Industry"
+      }
     ],
     "target": "Professionals in the oil and gas industry, Individuals working in financial institutions, Government officials involved in oil and gas policy, Entrepreneurs in the petroleum sector"
   },
@@ -215,11 +320,26 @@
       "Communicate effectively on legal and ethical issues related to sustainability in the entertainment industry."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Entertainment Law and Sustainability (4 weeks)", "description": "Defining Entertainment Law and its Subfields (e.g., Music Law, Film Law, Copyright Law); Understanding Sustainable Development Principles in the Entertainment Context; Environmental and Social Impact Assessment of Entertainment Production; Legal Frameworks and Regulatory Landscape for Sustainable Entertainment"},
-      {"name": "Module 2: Intellectual Property and Sustainability (4 weeks)", "description": "Copyright Law and its Implications for Sustainable Practices in Entertainment; Green Licensing and Fair-Trade Principles in Creative Content Production; Protecting Sustainable Technologies and Innovations in the Entertainment Industry; Balancing Intellectual Property Rights with Public Interest Considerations"},
-      {"name": "Module 3: Contracts and Sustainability Clauses (4 weeks)", "description": "Drafting Entertainment Contracts with Sustainability Clauses (e.g., green production practices, fair labor standards); Negotiating Contracts for Sustainable Content Distribution and Licensing; Dispute Resolution Mechanisms and Legal Enforcement of Sustainability Commitments; Ethical Considerations in Entertainment Contracts and Negotiations"},
-      {"name": "Module 4: Sustainable Production Practices and Regulations (4 weeks)", "description": "Environmental Regulations and Permits for Entertainment Production Activities; Energy Efficiency and Resource Conservation in Filmmaking and Music Production; Sustainable Set Design, Waste Management, and Recycling Practices; The Role of Sustainability Certifications and Standards in the Entertainment Industry"},
-      {"name": "Module 5: Social Responsibility and Ethical Marketing (3 weeks)", "description": "Promoting Diversity and Inclusion in the Entertainment Industry; Social Impact Initiatives and Cause-Related Marketing Campaigns; Utilizing Entertainment Platforms for Public Awareness about Sustainability Issues; Ethical Advertising and Consumer Protection in the Entertainment Sector"}
+      {
+        "name": "Introduction to Entertainment Law and Sustainability (4 weeks)",
+        "description": "Defining Entertainment Law and its Subfields (e.g., Music Law, Film Law, Copyright Law); Understanding Sustainable Development Principles in the Entertainment Context; Environmental and Social Impact Assessment of Entertainment Production; Legal Frameworks and Regulatory Landscape for Sustainable Entertainment"
+      },
+      {
+        "name": "Intellectual Property and Sustainability (4 weeks)",
+        "description": "Copyright Law and its Implications for Sustainable Practices in Entertainment; Green Licensing and Fair-Trade Principles in Creative Content Production; Protecting Sustainable Technologies and Innovations in the Entertainment Industry; Balancing Intellectual Property Rights with Public Interest Considerations"
+      },
+      {
+        "name": "Contracts and Sustainability Clauses (4 weeks)",
+        "description": "Drafting Entertainment Contracts with Sustainability Clauses (e.g., green production practices, fair labor standards); Negotiating Contracts for Sustainable Content Distribution and Licensing; Dispute Resolution Mechanisms and Legal Enforcement of Sustainability Commitments; Ethical Considerations in Entertainment Contracts and Negotiations"
+      },
+      {
+        "name": "Sustainable Production Practices and Regulations (4 weeks)",
+        "description": "Environmental Regulations and Permits for Entertainment Production Activities; Energy Efficiency and Resource Conservation in Filmmaking and Music Production; Sustainable Set Design, Waste Management, and Recycling Practices; The Role of Sustainability Certifications and Standards in the Entertainment Industry"
+      },
+      {
+        "name": "Social Responsibility and Ethical Marketing (3 weeks)",
+        "description": "Promoting Diversity and Inclusion in the Entertainment Industry; Social Impact Initiatives and Cause-Related Marketing Campaigns; Utilizing Entertainment Platforms for Public Awareness about Sustainability Issues; Ethical Advertising and Consumer Protection in the Entertainment Sector"
+      }
     ],
     "target": "Entertainment lawyers, artists, and content creators, Entertainment business managers and executives, Music producers, filmmakers, and event organizers, Sustainability professionals, Environmental NGOs and advocacy groups"
   },
@@ -243,11 +363,26 @@
       "Communicate effectively with law enforcement and legal professionals regarding fraud investigations."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Forensic Accounting and Fraud (4 weeks)", "description": "Definition and Nature of Fraud; The Fraud Triangle and Motivational Factors; Types of Occupational Fraud (Asset Misappropriation, Corruption, Fraudulent Financial Statements); The Role of Forensic Accountants in Fraud Investigations"},
-      {"name": "Module 2: Financial Statement Analysis for Fraud Detection (4 weeks)", "description": "Analytical Procedures and Red Flags in Financial Statements; Benford's Law and Ratio Analysis for Anomaly Detection; Investigating Unusual Transactions and Accounting Entries; Identifying Concealment Techniques Used in Fraudulent Activities"},
-      {"name": "Module 3: Investigative Techniques and Evidence Gathering (4 weeks)", "description": "Interviewing Techniques and Witness Interrogation; Data Gathering and Electronic Evidence Collection; Digital Forensics and Tracing Financial Transactions; Documentation and Maintaining the Chain of Custody"},
-      {"name": "Module 4: Forensic Accounting Procedures and Techniques (4 weeks)", "description": "Investigating Cash Disbursements and Receipts; Payroll Fraud Detection and Investigative Methods; Inventory Misappropriation and Revenue Recognition Schemes; Case Studies and Real-World Examples of Forensic Accounting"},
-      {"name": "Module 5: Legal Considerations and Reporting (3 weeks)", "description": "Legal Framework for Fraud Investigations; Standards and Best Practices in Forensic Accounting Engagements; Preparing Forensic Accounting Reports for Litigation; Anti-Money Laundering (AML) and Financial Crime Compliance"}
+      {
+        "name": "Introduction to Forensic Accounting and Fraud (4 weeks)",
+        "description": "Definition and Nature of Fraud; The Fraud Triangle and Motivational Factors; Types of Occupational Fraud (Asset Misappropriation, Corruption, Fraudulent Financial Statements); The Role of Forensic Accountants in Fraud Investigations"
+      },
+      {
+        "name": "Financial Statement Analysis for Fraud Detection (4 weeks)",
+        "description": "Analytical Procedures and Red Flags in Financial Statements; Benford's Law and Ratio Analysis for Anomaly Detection; Investigating Unusual Transactions and Accounting Entries; Identifying Concealment Techniques Used in Fraudulent Activities"
+      },
+      {
+        "name": "Investigative Techniques and Evidence Gathering (4 weeks)",
+        "description": "Interviewing Techniques and Witness Interrogation; Data Gathering and Electronic Evidence Collection; Digital Forensics and Tracing Financial Transactions; Documentation and Maintaining the Chain of Custody"
+      },
+      {
+        "name": "Forensic Accounting Procedures and Techniques (4 weeks)",
+        "description": "Investigating Cash Disbursements and Receipts; Payroll Fraud Detection and Investigative Methods; Inventory Misappropriation and Revenue Recognition Schemes; Case Studies and Real-World Examples of Forensic Accounting"
+      },
+      {
+        "name": "Legal Considerations and Reporting (3 weeks)",
+        "description": "Legal Framework for Fraud Investigations; Standards and Best Practices in Forensic Accounting Engagements; Preparing Forensic Accounting Reports for Litigation; Anti-Money Laundering (AML) and Financial Crime Compliance"
+      }
     ],
     "target": "Accounting professionals (auditors, forensic accountants, internal auditors), Law enforcement officers and investigators, Lawyers and legal professionals, Risk management professionals, Loss prevention specialists"
   },
@@ -271,11 +406,26 @@
       "Communicate effectively with stakeholders regarding rail transportation operations and planning."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Rail Transportation Systems (4 weeks)", "description": "Overview of the Global Rail Industry and its Importance; Railway Infrastructure Components and Maintenance; Rolling Stock Technologies and Fleet Management; Regulatory Environment and Safety Standards in Rail Transportation"},
-      {"name": "Module 2: Operations Management in Rail Transportation (4 weeks)", "description": "Service Planning and Scheduling Strategies; Traffic Management and Capacity Optimization; Performance Measurement and Benchmarking in Rail Operations; Managing Freight and Passenger Rail Services"},
-      {"name": "Module 3: Logistics and Supply Chain Management in Rail (4 weeks)", "description": "Integration of Rail Transportation in Logistics and Supply Chains; Intermodal Transportation and Interconnectivity with Other Modes; Warehousing and Terminal Operations for Rail Freight; Inventory Management and Logistics Optimization for Rail-based Supply Chains"},
-      {"name": "Module 4: Financial Management in Rail Transportation (4 weeks)", "description": "Cost Analysis and Revenue Generation Models in Rail Operations; Infrastructure Investment and Financing Strategies; Public-Private Partnerships in Rail Development; Financial Performance Measurement and Budgeting for Rail Transportation"},
-      {"name": "Module 5: Strategic Management and Future Trends (3 weeks)", "description": "Developing Strategic Plans for Rail Transportation Businesses; Technological Innovations and their Impact on Rail Management (e.g., automation, AI); Sustainability Considerations and Environmental Challenges in Rail Transportation; Future Trends and Emerging Markets in Rail Transport"}
+      {
+        "name": "Introduction to Rail Transportation Systems (4 weeks)",
+        "description": "Overview of the Global Rail Industry and its Importance; Railway Infrastructure Components and Maintenance; Rolling Stock Technologies and Fleet Management; Regulatory Environment and Safety Standards in Rail Transportation"
+      },
+      {
+        "name": "Operations Management in Rail Transportation (4 weeks)",
+        "description": "Service Planning and Scheduling Strategies; Traffic Management and Capacity Optimization; Performance Measurement and Benchmarking in Rail Operations; Managing Freight and Passenger Rail Services"
+      },
+      {
+        "name": "Logistics and Supply Chain Management in Rail (4 weeks)",
+        "description": "Integration of Rail Transportation in Logistics and Supply Chains; Intermodal Transportation and Interconnectivity with Other Modes; Warehousing and Terminal Operations for Rail Freight; Inventory Management and Logistics Optimization for Rail-based Supply Chains"
+      },
+      {
+        "name": "Financial Management in Rail Transportation (4 weeks)",
+        "description": "Cost Analysis and Revenue Generation Models in Rail Operations; Infrastructure Investment and Financing Strategies; Public-Private Partnerships in Rail Development; Financial Performance Measurement and Budgeting for Rail Transportation"
+      },
+      {
+        "name": "Strategic Management and Future Trends (3 weeks)",
+        "description": "Developing Strategic Plans for Rail Transportation Businesses; Technological Innovations and their Impact on Rail Management (e.g., automation, AI); Sustainability Considerations and Environmental Challenges in Rail Transportation; Future Trends and Emerging Markets in Rail Transport"
+      }
     ],
     "target": "Rail transportation managers and supervisors, Logistics and supply chain professionals, Government officials and policymakers, Infrastructure management and planning professionals, Business development specialists, Entrepreneurs and investors"
   },
@@ -299,11 +449,26 @@
       "Communicate effectively on ICT legal issues and their implications for organizations and individuals."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to ICT Law and Regulatory Environment (4 weeks)", "description": "Defining ICT Law and its Scope; Sources of ICT Law (National and International Regulations); Key Regulatory Bodies and Policy Frameworks; Introduction to Intellectual Property Law in the Digital Age"},
-      {"name": "Module 2: Data Privacy and Protection (4 weeks)", "description": "Data Privacy Principles and Regulatory Compliance (e.g., GDPR, NDPR); Data Collection, Storage, and Usage Practices; Cybersecurity Threats and Data Breach Management; Legal Considerations for Cross-Border Data Flows"},
-      {"name": "Module 3: E-commerce and Online Transactions (4 weeks)", "description": "Legal Framework for E-commerce Transactions (Contracts, Consumer Protection); Electronic Payment Systems and Digital Currencies; Cybercrime and Fraudulent Activities in E-commerce; Intellectual Property Rights Enforcement in the Digital Marketplace"},
-      {"name": "Module 4: Social Media Law and Content Regulation (4 weeks)", "description": "Legal Issues Surrounding Social Media Platforms and User-Generated Content; Online Defamation, Hate Speech, and Cyberbullying; Content Regulation and Intermediary Liability; Data Privacy Concerns and Social Media Marketing"},
-      {"name": "Module 5: Emerging Technologies and Legal Challenges (3 weeks)", "description": "Artificial Intelligence and Algorithmic Bias; Legal Implications of Blockchain Technology; The Internet of Things (IoT) and Data Security Concerns; Legal Frameworks for Emerging ICT Applications"}
+      {
+        "name": "Introduction to ICT Law and Regulatory Environment (4 weeks)",
+        "description": "Defining ICT Law and its Scope; Sources of ICT Law (National and International Regulations); Key Regulatory Bodies and Policy Frameworks; Introduction to Intellectual Property Law in the Digital Age"
+      },
+      {
+        "name": "Data Privacy and Protection (4 weeks)",
+        "description": "Data Privacy Principles and Regulatory Compliance (e.g., GDPR, NDPR); Data Collection, Storage, and Usage Practices; Cybersecurity Threats and Data Breach Management; Legal Considerations for Cross-Border Data Flows"
+      },
+      {
+        "name": "E-commerce and Online Transactions (4 weeks)",
+        "description": "Legal Framework for E-commerce Transactions (Contracts, Consumer Protection); Electronic Payment Systems and Digital Currencies; Cybercrime and Fraudulent Activities in E-commerce; Intellectual Property Rights Enforcement in the Digital Marketplace"
+      },
+      {
+        "name": "Social Media Law and Content Regulation (4 weeks)",
+        "description": "Legal Issues Surrounding Social Media Platforms and User-Generated Content; Online Defamation, Hate Speech, and Cyberbullying; Content Regulation and Intermediary Liability; Data Privacy Concerns and Social Media Marketing"
+      },
+      {
+        "name": "Emerging Technologies and Legal Challenges (3 weeks)",
+        "description": "Artificial Intelligence and Algorithmic Bias; Legal Implications of Blockchain Technology; The Internet of Things (IoT) and Data Security Concerns; Legal Frameworks for Emerging ICT Applications"
+      }
     ],
     "target": "Lawyers specializing in technology law, Business professionals in ICT-related industries, IT managers, data protection officers, and cybersecurity specialists, Government officials in ICT policy and regulation, Entrepreneurs and startups, Content creators and social media influencers"
   },
@@ -327,11 +492,26 @@
       "Develop a foundation for further study of the Chinese language and culture."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Mandarin Chinese (4 weeks)", "description": "Pinyin Pronunciation System and Tones; Basic Grammar Structures (Sentence Formation); Essential Everyday Vocabulary (Greetings, Numbers, Introductions); Simplified Chinese Characters and Writing Practice"},
-      {"name": "Module 2: Communication Skills for Daily Life (4 weeks)", "description": "Asking and Answering Questions; Giving Directions and Making Requests; Talking about Daily Routines and Activities; Cultural Context and Appropriate Language Use"},
-      {"name": "Module 3: Understanding Chinese Culture (4 weeks)", "description": "History and Philosophy of China; Major Holidays and Traditional Festivals; Social Norms and Etiquette in China; Non-verbal Communication and Body Language"},
-      {"name": "Module 4: Business Communication in Chinese (4 weeks)", "description": "Business Greetings and Introductions; Exchanging Business Cards and Making Presentations; Negotiation Strategies and Business Etiquette; Intercultural Communication Challenges and Solutions"},
-      {"name": "Module 5: Exploring China through Film and Media (3 weeks)", "description": "Introduction to Chinese Cinema and Popular Culture; Understanding Cultural References through Film and Media; Practicing Listening Comprehension Skills; Building Interest and Motivation for Further Language Learning"}
+      {
+        "name": "Introduction to Mandarin Chinese (4 weeks)",
+        "description": "Pinyin Pronunciation System and Tones; Basic Grammar Structures (Sentence Formation); Essential Everyday Vocabulary (Greetings, Numbers, Introductions); Simplified Chinese Characters and Writing Practice"
+      },
+      {
+        "name": "Communication Skills for Daily Life (4 weeks)",
+        "description": "Asking and Answering Questions; Giving Directions and Making Requests; Talking about Daily Routines and Activities; Cultural Context and Appropriate Language Use"
+      },
+      {
+        "name": "Understanding Chinese Culture (4 weeks)",
+        "description": "History and Philosophy of China; Major Holidays and Traditional Festivals; Social Norms and Etiquette in China; Non-verbal Communication and Body Language"
+      },
+      {
+        "name": "Business Communication in Chinese (4 weeks)",
+        "description": "Business Greetings and Introductions; Exchanging Business Cards and Making Presentations; Negotiation Strategies and Business Etiquette; Intercultural Communication Challenges and Solutions"
+      },
+      {
+        "name": "Exploring China through Film and Media (3 weeks)",
+        "description": "Introduction to Chinese Cinema and Popular Culture; Understanding Cultural References through Film and Media; Practicing Listening Comprehension Skills; Building Interest and Motivation for Further Language Learning"
+      }
     ],
     "target": "Business professionals seeking to expand business opportunities with Chinese counterparts, Travelers and Expats visiting or working in China, Students and Language Enthusiasts, Government Officials and Diplomats"
   },
@@ -355,11 +535,26 @@
       "Communicate their creative vision through storytelling techniques."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Film & Multimedia Production (4 weeks)", "description": "Overview of the Filmmaking Process (Pre-Production, Production, Post-Production); Understanding Film Language and Storytelling Techniques; Scriptwriting Fundamentals for Film and Multimedia Projects; Introduction to Storyboarding and Visualization Techniques"},
-      {"name": "Module 2: Pre-Production Planning and Management (4 weeks)", "description": "Script Analysis and Breakdown; Location Scouting and Budgeting; Crew Roles and Responsibilities in Film Production; Production Scheduling and Planning Techniques"},
-      {"name": "Module 3: Filming and Production Techniques (4 weeks)", "description": "Camera Operations and Basic Cinematography; Lighting Techniques for Film and Multimedia Production; Sound Recording and Audio Management; Directing Actors and Working with Talent"},
-      {"name": "Module 4: Post-Production Workflow (4 weeks)", "description": "Introduction to Video Editing Software and Techniques; Audio Editing and Sound Design for Film Projects; Color Correction and Visual Effects; Preparing Film and Multimedia Projects for Distribution"},
-      {"name": "Module 5: Multimedia Production for Diverse Platforms (3 weeks)", "description": "Storytelling for Social Media and Online Content; Mobile Video Production Techniques; Content Marketing and Creative Strategies for Multimedia; Exploring New Media Technologies and Platforms"}
+      {
+        "name": "Introduction to Film & Multimedia Production (4 weeks)",
+        "description": "Overview of the Filmmaking Process (Pre-Production, Production, Post-Production); Understanding Film Language and Storytelling Techniques; Scriptwriting Fundamentals for Film and Multimedia Projects; Introduction to Storyboarding and Visualization Techniques"
+      },
+      {
+        "name": "Pre-Production Planning and Management (4 weeks)",
+        "description": "Script Analysis and Breakdown; Location Scouting and Budgeting; Crew Roles and Responsibilities in Film Production; Production Scheduling and Planning Techniques"
+      },
+      {
+        "name": "Filming and Production Techniques (4 weeks)",
+        "description": "Camera Operations and Basic Cinematography; Lighting Techniques for Film and Multimedia Production; Sound Recording and Audio Management; Directing Actors and Working with Talent"
+      },
+      {
+        "name": "Post-Production Workflow (4 weeks)",
+        "description": "Introduction to Video Editing Software and Techniques; Audio Editing and Sound Design for Film Projects; Color Correction and Visual Effects; Preparing Film and Multimedia Projects for Distribution"
+      },
+      {
+        "name": "Multimedia Production for Diverse Platforms (3 weeks)",
+        "description": "Storytelling for Social Media and Online Content; Mobile Video Production Techniques; Content Marketing and Creative Strategies for Multimedia; Exploring New Media Technologies and Platforms"
+      }
     ],
     "target": "Aspiring filmmakers and content creators, Marketing and communications professionals, Entrepreneurs and business owners, Educators and trainers, Recent graduates and career changers"
   },
@@ -388,11 +583,26 @@
       "Foster collaboration and communication and will be able to work in groups to complete projects."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to French Language and Culture", "description": "French Alphabet and Pronunciation; Basic Phrases and Vocabulary (Introductions, Greetings, etc.); Overview of French Culture and History"},
-      {"name": "Module 2: French Language Fundamentals", "description": "Verb Conjugations (Present, Imperfect, and Future Tenses); Basic Sentence Structures and Grammar Rules; Vocabulary Building (Food, Family, Hobbies, etc.)"},
-      {"name": "Module 3: Exploring French Culture", "description": "French History and Historical Landmarks; French Art and Literature (Impressionism, Existentialism, etc.); French Cuisine and Wine Culture"},
-      {"name": "Module 4: French Language in Context", "description": "Reading and Listening Comprehension (News Articles, Videos, etc.); Speaking and Writing Practice (Conversations, Journal Entries, etc.); Vocabulary Building (Politics, Environment, Social Issues, etc.)"},
-      {"name": "Module 5: Francophone Cultures Around the World", "description": "Overview of Francophone Countries and Cultures; Case Studies of Francophone Cultures (Quebec, Haiti, Senegal, etc.); Cultural Comparisons and Contrasts"}
+      {
+        "name": "Introduction to French Language and Culture",
+        "description": "French Alphabet and Pronunciation; Basic Phrases and Vocabulary (Introductions, Greetings, etc.); Overview of French Culture and History"
+      },
+      {
+        "name": "French Language Fundamentals",
+        "description": "Verb Conjugations (Present, Imperfect, and Future Tenses); Basic Sentence Structures and Grammar Rules; Vocabulary Building (Food, Family, Hobbies, etc.)"
+      },
+      {
+        "name": "Exploring French Culture",
+        "description": "French History and Historical Landmarks; French Art and Literature (Impressionism, Existentialism, etc.); French Cuisine and Wine Culture"
+      },
+      {
+        "name": "French Language in Context",
+        "description": "Reading and Listening Comprehension (News Articles, Videos, etc.); Speaking and Writing Practice (Conversations, Journal Entries, etc.); Vocabulary Building (Politics, Environment, Social Issues, etc.)"
+      },
+      {
+        "name": "Francophone Cultures Around the World",
+        "description": "Overview of Francophone Countries and Cultures; Case Studies of Francophone Cultures (Quebec, Haiti, Senegal, etc.); Cultural Comparisons and Contrasts"
+      }
     ],
     "target": "Business executives and professionals, Travelers and Expats, Students and Language Enthusiasts, Government Officials and Diplomats"
   },
@@ -420,11 +630,26 @@
       "Apply conflict resolution and negotiation skills in agricultural settings, especially on land matters using ADR."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Agripreneurship and Innovation", "description": "Definition and Concept of Agripreneurship; Importance in Agricultural Development; Overview of Agricultural Value Chains; Case Studies of Successful Agripreneurs; Understanding Innovation and Entrepreneurship in Agriculture"},
-      {"name": "Module 2: Agricultural Value Chain Analysis", "description": "Understanding Agricultural Value Chains; Identifying Opportunities and Challenges; Analyzing Market Trends and Consumer Behavior; Developing a Value Chain Analysis Framework; Intellectual Property Rights and Protection"},
-      {"name": "Module 3: Business Planning, Leadership, and Management", "description": "Developing a Business Plan for an Agricultural Enterprise; Financial Management and Accounting Principles; Managing Human Resources and Labor Relations; Marketing and Sales Strategies; Leadership and Teamwork Principles; Communication and Negotiation Skills"},
-      {"name": "Module 4: Agricultural Production, Technology and Collaboration", "description": "Principles of Agricultural Production and Management; Production Systems (Organic, Conventional, etc.); Application of Technology (Precision Agriculture, Irrigation, etc.); Climate-Smart and Sustainable Practices; Building Collaborations and Partnerships; Conflict Resolution"},
-      {"name": "Module 5: Market Access and Sustainability", "description": "Market Access and Trade Agreements; Identifying Market Opportunities and Challenges; Developing a Market Entry Strategy; Food Safety and Quality Standards; Sustainable Agriculture and Environmental Impact Assessment"}
+      {
+        "name": "Introduction to Agripreneurship and Innovation",
+        "description": "Definition and Concept of Agripreneurship; Importance in Agricultural Development; Overview of Agricultural Value Chains; Case Studies of Successful Agripreneurs; Understanding Innovation and Entrepreneurship in Agriculture"
+      },
+      {
+        "name": "Agricultural Value Chain Analysis",
+        "description": "Understanding Agricultural Value Chains; Identifying Opportunities and Challenges; Analyzing Market Trends and Consumer Behavior; Developing a Value Chain Analysis Framework; Intellectual Property Rights and Protection"
+      },
+      {
+        "name": "Business Planning, Leadership, and Management",
+        "description": "Developing a Business Plan for an Agricultural Enterprise; Financial Management and Accounting Principles; Managing Human Resources and Labor Relations; Marketing and Sales Strategies; Leadership and Teamwork Principles; Communication and Negotiation Skills"
+      },
+      {
+        "name": "Agricultural Production, Technology and Collaboration",
+        "description": "Principles of Agricultural Production and Management; Production Systems (Organic, Conventional, etc.); Application of Technology (Precision Agriculture, Irrigation, etc.); Climate-Smart and Sustainable Practices; Building Collaborations and Partnerships; Conflict Resolution"
+      },
+      {
+        "name": "Market Access and Sustainability",
+        "description": "Market Access and Trade Agreements; Identifying Market Opportunities and Challenges; Developing a Market Entry Strategy; Food Safety and Quality Standards; Sustainable Agriculture and Environmental Impact Assessment"
+      }
     ],
     "target": "Small holders and Commercial Farmers, Livestock Producers, Agric Extension Officers and Researchers, Horticultural Farmers, Agric Consultants, Inspectors and Managers"
   },
@@ -452,11 +677,26 @@
       "Thrive in chaos by being adaptable, innovative, and customer-focused in rapidly changing conditions."
     ],
     "modules": [
-      {"name": "Module 1: Foundations of Business Success", "description": "Introduction to Business Models and Frameworks; Identifying Opportunities and Market Needs; Key Traits of Successful Entrepreneurs; Vision, Mission, and Core Values; Environmental, Social, and Economic Dimensions; Branding for a Purpose-Driven Business"},
-      {"name": "Module 2: Sustainable Business Practices and Collaboration", "description": "Understanding Sustainability in Business; Benefits of Integrating Sustainability; Sustainable Marketing Strategies; Examples of Successful Sustainable Businesses; Principles of Circular Economy; Expanding Markets Sustainably, Collaborations and Partnerships; Conflict Resolution and Decision-Making"},
-      {"name": "Module 3: Business Planning and Strategy", "description": "Market Research and Competitive Analysis; Developing a Unique Value Proposition; Business Model Canvas; Strategic Goal Setting; Building Customer Loyalty and Trust; Identifying Growth Opportunities"},
-      {"name": "Module 4: Financial Planning and Management", "description": "Budgeting and Forecasting; Securing Funding and Investment; Financial Statements and Metrics; Managing Risks and Contingencies; Digital Marketing Tools; Diversity, Equity, and Inclusion in Business"},
-      {"name": "Module 5: Marketing and Customer Engagement Operations and Supply Chain", "description": "Designing Efficient and Sustainable Operations; Green Supply Chain Management; Measuring Impact and Setting KPIs; Adopting Technology and Innovation; Building a Resilient Team; Leading with Vision and Purpose"}
+      {
+        "name": "Foundations of Business Success",
+        "description": "Introduction to Business Models and Frameworks; Identifying Opportunities and Market Needs; Key Traits of Successful Entrepreneurs; Vision, Mission, and Core Values; Environmental, Social, and Economic Dimensions; Branding for a Purpose-Driven Business"
+      },
+      {
+        "name": "Sustainable Business Practices and Collaboration",
+        "description": "Understanding Sustainability in Business; Benefits of Integrating Sustainability; Sustainable Marketing Strategies; Examples of Successful Sustainable Businesses; Principles of Circular Economy; Expanding Markets Sustainably, Collaborations and Partnerships; Conflict Resolution and Decision-Making"
+      },
+      {
+        "name": "Business Planning and Strategy",
+        "description": "Market Research and Competitive Analysis; Developing a Unique Value Proposition; Business Model Canvas; Strategic Goal Setting; Building Customer Loyalty and Trust; Identifying Growth Opportunities"
+      },
+      {
+        "name": "Financial Planning and Management",
+        "description": "Budgeting and Forecasting; Securing Funding and Investment; Financial Statements and Metrics; Managing Risks and Contingencies; Digital Marketing Tools; Diversity, Equity, and Inclusion in Business"
+      },
+      {
+        "name": "Marketing and Customer Engagement Operations and Supply Chain",
+        "description": "Designing Efficient and Sustainable Operations; Green Supply Chain Management; Measuring Impact and Setting KPIs; Adopting Technology and Innovation; Building a Resilient Team; Leading with Vision and Purpose"
+      }
     ],
     "target": "Apprentices about to be settled, Aspiring Entrepreneurs, Small Business Owners (SMEs), Career-changing Professionals, New Graduates, Social Entrepreneurs, Family Business Successors, Freelancers and Consultants"
   },
@@ -484,11 +724,26 @@
       "Enhance cybersecurity and adopt process automation and risk management collaboration in banking."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Strategic Management", "description": "Defining Strategic Management; Importance and Historical Development; Key Concepts and Frameworks; Organizational Learning and Innovation"},
-      {"name": "Module 2: External Environment Analysis", "description": "PESTEL Analysis (Political, Economic, Social, Technological, Environmental, Legal); Industry Analysis (Porter's Five Forces); Competitor and Market Analysis; Generic Strategies Framework"},
-      {"name": "Module 3: Internal Environment Analysis", "description": "Organizational Structure and Design; Resource-Based View (RBV) of the Firm; Core Competencies and Competitive Advantage; Organizational Culture and Leadership; Leadership and Change Management"},
-      {"name": "Module 4: Strategy Formulation and Implementation", "description": "Mission, Vision, and Objectives; Strategy Types (Cost Leadership, Differentiation, Focus); Blue-Ocean Strategy; Organizational Design and Structure; Resource Allocation and Budgeting"},
-      {"name": "Module 5: Evaluation, Review and Renewal", "description": "Strategy Evaluation and Renewal; Performance Metrics (Financial and Non-financial); Balanced Scorecard (BSC); Performance Measurement, Control, and Renewal"}
+      {
+        "name": "Introduction to Strategic Management",
+        "description": "Defining Strategic Management; Importance and Historical Development; Key Concepts and Frameworks; Organizational Learning and Innovation"
+      },
+      {
+        "name": "External Environment Analysis",
+        "description": "PESTEL Analysis (Political, Economic, Social, Technological, Environmental, Legal); Industry Analysis (Porter's Five Forces); Competitor and Market Analysis; Generic Strategies Framework"
+      },
+      {
+        "name": "Internal Environment Analysis",
+        "description": "Organizational Structure and Design; Resource-Based View (RBV) of the Firm; Core Competencies and Competitive Advantage; Organizational Culture and Leadership; Leadership and Change Management"
+      },
+      {
+        "name": "Strategy Formulation and Implementation",
+        "description": "Mission, Vision, and Objectives; Strategy Types (Cost Leadership, Differentiation, Focus); Blue-Ocean Strategy; Organizational Design and Structure; Resource Allocation and Budgeting"
+      },
+      {
+        "name": "Evaluation, Review and Renewal",
+        "description": "Strategy Evaluation and Renewal; Performance Metrics (Financial and Non-financial); Balanced Scorecard (BSC); Performance Measurement, Control, and Renewal"
+      }
     ],
     "target": "Business owners and entrepreneurs, Bank managers and executives, Financial analysts and planners, Risk management specialists, Investment bankers, Retail and commercial bankers, Credit managers, IT and technology professionals in finance, Compliance and legal professionals"
   },
@@ -503,10 +758,20 @@
     "mode": "In-Person / Virtual",
     "image": "/images/programs/finance_accounting_category.jpg",
     "objectives": "Equip participants with tools for advanced financial planning and modelling.",
-    "outcomes": ["Execute complex models", "Investment appraisal", "Risk analysis"],
+    "outcomes": [
+      "Execute complex models",
+      "Investment appraisal",
+      "Risk analysis"
+    ],
     "modules": [
-      {"name": "Modelling Core", "description": "Building statements and project models"},
-      {"name": "Financial Planning", "description": "Wealth management and planners"}
+      {
+        "name": "Modelling Core",
+        "description": "Building statements and project models"
+      },
+      {
+        "name": "Financial Planning",
+        "description": "Wealth management and planners"
+      }
     ],
     "target": "Financial Analysts, Wealth Managers"
   },
@@ -543,11 +808,26 @@
       "Prepare for a career as a Python developer or data scientist."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Python Programming", "description": "Introduction to Python; Setting up the Python environment; Basic syntax and data types; Variables, operators, and control structures"},
-      {"name": "Module 2: Control Structures and Functions", "description": "Conditional statements (if/else, if/elif/else); Loops (for, while); Functions (defining, calling, arguments); Modules and packages"},
-      {"name": "Module 3: Data Structures", "description": "Lists (indexing, slicing, methods); Tuples (indexing, slicing, methods); Dictionaries (key-value pairs, methods); Sets (unique elements, methods)"},
-      {"name": "Module 4: Object-Oriented Programming", "description": "Classes and objects; Constructors and attributes; Methods and inheritance; Polymorphism and encapsulation"},
-      {"name": "Module 5: File Input/Output and Persistence", "description": "Reading and writing text files; Reading and writing CSV and JSON files; Working with databases (SQLite); Pickling and unpickling objects"}
+      {
+        "name": "Introduction to Python Programming",
+        "description": "Introduction to Python; Setting up the Python environment; Basic syntax and data types; Variables, operators, and control structures"
+      },
+      {
+        "name": "Control Structures and Functions",
+        "description": "Conditional statements (if/else, if/elif/else); Loops (for, while); Functions (defining, calling, arguments); Modules and packages"
+      },
+      {
+        "name": "Data Structures",
+        "description": "Lists (indexing, slicing, methods); Tuples (indexing, slicing, methods); Dictionaries (key-value pairs, methods); Sets (unique elements, methods)"
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "description": "Classes and objects; Constructors and attributes; Methods and inheritance; Polymorphism and encapsulation"
+      },
+      {
+        "name": "File Input/Output and Persistence",
+        "description": "Reading and writing text files; Reading and writing CSV and JSON files; Working with databases (SQLite); Pickling and unpickling objects"
+      }
     ],
     "target": "Data Analysts (enhance data analysis skills), Data Scientists (improve machine learning skills), Software Developers (expand skill set), Researchers (data analysis and visualization), Business Intelligence Developers (data visualization tools), Entrepreneurs (automate tasks and build applications), Students (enhance career prospects), Hobbyists (personal projects), Career Changers (transition into new careers), Finance/Healthcare/Scientific Research/Web Development professionals"
   },
@@ -578,11 +858,26 @@
       "Understand the importance of uncertainty analysis and risk assessment in reservoir engineering."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Reservoir Engineering and Rock Properties", "description": "Definition and scope of reservoir engineering; Overview of reservoir types; Porosity and permeability; Saturation and capillary pressure; Rock compressibility; Laboratory measurement of rock properties"},
-      {"name": "Module 2: Reservoir Fluid Properties and Well Testing", "description": "Properties of oil, gas, and water; Phase behavior and equation of state; Viscosity and compressibility; Well testing principles; Drill stem/production testing; Pressure transient analysis"},
-      {"name": "Module 3: Reservoir Modelling, Simulation and Performance", "description": "Reservoir modelling principles; Grid generation and upscaling; Fluid flow equations; Simulation software; Decline curve/type curve analysis; Material balance"},
-      {"name": "Module 4: Reservoir Development, Management and Enhanced Oil Recovery (EOR)", "description": "Development planning and strategies; Well placement and completion optimization; Production surveillance; Thermal/Chemical/Gas EOR methods (steam injection, surfactant flooding, gas injection)"},
-      {"name": "Module 5: Reservoir Engineering Economics", "description": "Economics principles and software applications; NPV, IRR, and DCF analysis; Case studies; Overview of software (Eclipse, Petrel, IMEX, RMS)"}
+      {
+        "name": "Introduction to Reservoir Engineering and Rock Properties",
+        "description": "Definition and scope of reservoir engineering; Overview of reservoir types; Porosity and permeability; Saturation and capillary pressure; Rock compressibility; Laboratory measurement of rock properties"
+      },
+      {
+        "name": "Reservoir Fluid Properties and Well Testing",
+        "description": "Properties of oil, gas, and water; Phase behavior and equation of state; Viscosity and compressibility; Well testing principles; Drill stem/production testing; Pressure transient analysis"
+      },
+      {
+        "name": "Reservoir Modelling, Simulation and Performance",
+        "description": "Reservoir modelling principles; Grid generation and upscaling; Fluid flow equations; Simulation software; Decline curve/type curve analysis; Material balance"
+      },
+      {
+        "name": "Reservoir Development, Management and Enhanced Oil Recovery (EOR)",
+        "description": "Development planning and strategies; Well placement and completion optimization; Production surveillance; Thermal/Chemical/Gas EOR methods (steam injection, surfactant flooding, gas injection)"
+      },
+      {
+        "name": "Reservoir Engineering Economics",
+        "description": "Economics principles and software applications; NPV, IRR, and DCF analysis; Case studies; Overview of software (Eclipse, Petrel, IMEX, RMS)"
+      }
     ],
     "target": "Reservoir engineers, drilling engineers, production engineers, and completion engineers; Geologists, geophysicists, and Petrophysicists; Reservoir Managers; E&P Companies; Renewable Energy and Regulatory Agency Officials; Petroleum Engineering students and researchers"
   },
@@ -612,11 +907,26 @@
       "Gain expertise in decision-making, critical thinking, and managing various well types (horizontal, unconventional)."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Oil and Gas Production Engineering", "description": "Overview of the industry; Production engineering fundamentals; Processing facilities and separation systems; Operations and safety fundamentals; System optimization techniques"},
-      {"name": "Module 2: Petroleum Geology and Reservoir Engineering", "description": "Introduction to petroleum geology; Reservoir rock properties and fluid behavior; Reservoir engineering principles; Well logging and formation evaluation; Well construction and wellhead equipment"},
-      {"name": "Module 3: Fluid Flow and Pressure Drop", "description": "Fluid properties and behavior; Fluid flow in pipes and tubing; Pressure drop calculations; Multiphase flow and flow assurance; Well control and emergency response"},
-      {"name": "Module 4: Well Performance and Optimization", "description": "Well performance fundamentals; Well testing and production logging; Well intervention and workover operations; Optimization techniques; Process safety and risk management"},
-      {"name": "Module 5: Artificial Lift Systems", "description": "Introduction to artificial lift systems; Sucker rod pumping; Electrical submersible pumping (ESP); Gas lift systems; Environmental protection and regulatory compliance"}
+      {
+        "name": "Introduction to Oil and Gas Production Engineering",
+        "description": "Overview of the industry; Production engineering fundamentals; Processing facilities and separation systems; Operations and safety fundamentals; System optimization techniques"
+      },
+      {
+        "name": "Petroleum Geology and Reservoir Engineering",
+        "description": "Introduction to petroleum geology; Reservoir rock properties and fluid behavior; Reservoir engineering principles; Well logging and formation evaluation; Well construction and wellhead equipment"
+      },
+      {
+        "name": "Fluid Flow and Pressure Drop",
+        "description": "Fluid properties and behavior; Fluid flow in pipes and tubing; Pressure drop calculations; Multiphase flow and flow assurance; Well control and emergency response"
+      },
+      {
+        "name": "Well Performance and Optimization",
+        "description": "Well performance fundamentals; Well testing and production logging; Well intervention and workover operations; Optimization techniques; Process safety and risk management"
+      },
+      {
+        "name": "Artificial Lift Systems",
+        "description": "Introduction to artificial lift systems; Sucker rod pumping; Electrical submersible pumping (ESP); Gas lift systems; Environmental protection and regulatory compliance"
+      }
     ],
     "target": "Production, Reservoir, and Drilling & Completion Engineers; Petroleum Geologists; Operations and Maintenance Personnel; Oil and Gas Operators; Oilfield Service Companies; Government Agencies; University students and newly graduated"
   },
@@ -647,11 +957,26 @@
       "Develop skills in communication, teamwork, and leadership."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Refining and Petrochemical Engineering", "description": "Overview of the industry; History and development of processes; Fundamentals of refining and petrochemical engineering; Equipment selection and design"},
-      {"name": "Module 2: Refining Processes", "description": "Crude oil properties and characterization; Distillation processes (atmospheric and vacuum); Thermal and catalytic cracking processes; Reforming and isomerization processes"},
-      {"name": "Module 3: Petrochemical Processes", "description": "Introduction to petrochemicals and their applications; Steam cracking and ethylene production; Propylene and butadiene production; Aromatics production (benzene, toluene, xylene)"},
-      {"name": "Module 4: Process Control and Automation", "description": "Introduction to process control and automation; Control systems and instrumentation; Process modeling and simulation; Advanced control strategies (MPC, APC)"},
-      {"name": "Module 5: Refinery and Petrochemical Plant Operations", "description": "Refinery and petrochemical plant layout and design; Process optimization and troubleshooting; Energy management and efficiency; Safety and environmental management"}
+      {
+        "name": "Introduction to Refining and Petrochemical Engineering",
+        "description": "Overview of the industry; History and development of processes; Fundamentals of refining and petrochemical engineering; Equipment selection and design"
+      },
+      {
+        "name": "Refining Processes",
+        "description": "Crude oil properties and characterization; Distillation processes (atmospheric and vacuum); Thermal and catalytic cracking processes; Reforming and isomerization processes"
+      },
+      {
+        "name": "Petrochemical Processes",
+        "description": "Introduction to petrochemicals and their applications; Steam cracking and ethylene production; Propylene and butadiene production; Aromatics production (benzene, toluene, xylene)"
+      },
+      {
+        "name": "Process Control and Automation",
+        "description": "Introduction to process control and automation; Control systems and instrumentation; Process modeling and simulation; Advanced control strategies (MPC, APC)"
+      },
+      {
+        "name": "Refinery and Petrochemical Plant Operations",
+        "description": "Refinery and petrochemical plant layout and design; Process optimization and troubleshooting; Energy management and efficiency; Safety and environmental management"
+      }
     ],
     "target": "Process Engineers, Operations and Maintenance Personnel, Design Engineers, Project Managers, Research and Development Engineers, Oil Refining and Petrochemical Companies, Engineering and Construction Companies, Consulting and Advisory Firms, Government Agencies, Academic and Research Institutions, Chemical and Petroleum Engineering students"
   },
@@ -681,11 +1006,26 @@
       "Manage data types, storage, security, and retrieval."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Microsoft Suites", "description": "Basics of word processing; Creation and editing of documents; Formatting and templates; Basics of Spreadsheets, Functions and formulas"},
-      {"name": "Module 2: Introduction to Data and Design Suites", "description": "Analyzing and visualizing data; Introduction to Presentation Design; Creation and Editing of Slides; Animations and Multimedia"},
-      {"name": "Module 3: Introduction to Sharing and Collaboration", "description": "Basics of email management; Task and calendar management; The basics of Teams and OneDrive; Permissions and file sharing; Tools for collaboration"},
-      {"name": "Module 4: Introduction to Computer Hardware and Operating Systems", "description": "Hardware elements and Basics of operating systems; Networking and peripheral devices; Configuration, Installation and Troubleshooting"},
-      {"name": "Module 5: Introduction to Foundations of Networking and Cybersecurity", "description": "Network devices and connectivity; Network types and protocols; Vulnerabilities and threats to security; Best practices and protection"}
+      {
+        "name": "Introduction to Microsoft Suites",
+        "description": "Basics of word processing; Creation and editing of documents; Formatting and templates; Basics of Spreadsheets, Functions and formulas"
+      },
+      {
+        "name": "Introduction to Data and Design Suites",
+        "description": "Analyzing and visualizing data; Introduction to Presentation Design; Creation and Editing of Slides; Animations and Multimedia"
+      },
+      {
+        "name": "Introduction to Sharing and Collaboration",
+        "description": "Basics of email management; Task and calendar management; The basics of Teams and OneDrive; Permissions and file sharing; Tools for collaboration"
+      },
+      {
+        "name": "Introduction to Computer Hardware and Operating Systems",
+        "description": "Hardware elements and Basics of operating systems; Networking and peripheral devices; Configuration, Installation and Troubleshooting"
+      },
+      {
+        "name": "Introduction to Foundations of Networking and Cybersecurity",
+        "description": "Network devices and connectivity; Network types and protocols; Vulnerabilities and threats to security; Best practices and protection"
+      }
     ],
     "target": "Administrative professionals (Office managers, secretaries), Business Users (Sales, Marketing, Finance teams), Students, Entrepreneurs, Career Changers, IT Beginners, Help Desk Technicians, Network Administrators, Computer Science Students"
   },
@@ -712,10 +1052,22 @@
       "Use decision sciences metrics to gauge the influence of business decisions."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Business Analytics", "description": "Data-Driven Decision Making; Business Intelligence and Analytics; Big Data"},
-      {"name": "Module 2: Introduction to Data Analysis and Visualization", "description": "Data cleaning and data transformation; Data reduction and statistical analysis; Data analysis techniques"},
-      {"name": "Module 3: Strategic Case Studies", "description": "Reducing Energy Consumption for a Manufacturing Company; Improving Supply Chain Efficiency for a Logistics Company; Reducing Employee Turnover for a Human Resources Company"},
-      {"name": "Module 4: Applications and Operational Analysis", "description": "Predicting Customer Churn for a Telecom Company; Optimizing Inventory Management for an E-commerce Company; Analysing Customer Behavior for a Retail Company"}
+      {
+        "name": "Introduction to Business Analytics",
+        "description": "Data-Driven Decision Making; Business Intelligence and Analytics; Big Data"
+      },
+      {
+        "name": "Introduction to Data Analysis and Visualization",
+        "description": "Data cleaning and data transformation; Data reduction and statistical analysis; Data analysis techniques"
+      },
+      {
+        "name": "Strategic Case Studies",
+        "description": "Reducing Energy Consumption for a Manufacturing Company; Improving Supply Chain Efficiency for a Logistics Company; Reducing Employee Turnover for a Human Resources Company"
+      },
+      {
+        "name": "Applications and Operational Analysis",
+        "description": "Predicting Customer Churn for a Telecom Company; Optimizing Inventory Management for an E-commerce Company; Analysing Customer Behavior for a Retail Company"
+      }
     ],
     "target": "Business Analysts, Data Analysts, Operations Research Analysts, Management Consultants, Marketing Professionals, Business Leaders, Department Managers, Project Managers, MBA/Undergraduate Students, Academics, Finance and Banking, Healthcare, Retail, Manufacturing and Supply Chain professionals"
   },
@@ -745,11 +1097,26 @@
       "Apply cloud accounting concepts to e-commerce business scenarios, including inventory management, order tracking, and financial reporting."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Cloud Computing", "description": "Overview of cloud computing; History and evolution; Security and compliance; Architecture and deployment models; Benefits and challenges; Cloud computing and accounting: an overview"},
-      {"name": "Module 2: Cloud Accounting Fundamentals", "description": "Introduction to cloud accounting; Platforms and tools; Setting up and configuring systems; Cloud accounting for small businesses; Large enterprises; Non-profits and government agencies"},
-      {"name": "Module 3: Cloud Computing Infrastructure for Accounting", "description": "Overview of infrastructure; Infrastructure as a Service (IaaS); Platform as a Service (PaaS); Software as a Service (SaaS); Cloud storage and backup for accounting; Security and compliance"},
-      {"name": "Module 4: Cloud-Based Accounting Applications", "description": "QuickBooks Online and other software; Xero and other software; Zoho Books applications; Cloud-based inventory management; Order tracking; Payroll and human resources"},
-      {"name": "Module 5: Cloud Computing and Accounting Integration", "description": "Overview of integration; Integrating with other business applications; Enterprise resource planning (ERP); Customer relationship management (CRM); E-commerce platforms; Supply chain management"}
+      {
+        "name": "Introduction to Cloud Computing",
+        "description": "Overview of cloud computing; History and evolution; Security and compliance; Architecture and deployment models; Benefits and challenges; Cloud computing and accounting: an overview"
+      },
+      {
+        "name": "Cloud Accounting Fundamentals",
+        "description": "Introduction to cloud accounting; Platforms and tools; Setting up and configuring systems; Cloud accounting for small businesses; Large enterprises; Non-profits and government agencies"
+      },
+      {
+        "name": "Cloud Computing Infrastructure for Accounting",
+        "description": "Overview of infrastructure; Infrastructure as a Service (IaaS); Platform as a Service (PaaS); Software as a Service (SaaS); Cloud storage and backup for accounting; Security and compliance"
+      },
+      {
+        "name": "Cloud-Based Accounting Applications",
+        "description": "QuickBooks Online and other software; Xero and other software; Zoho Books applications; Cloud-based inventory management; Order tracking; Payroll and human resources"
+      },
+      {
+        "name": "Cloud Computing and Accounting Integration",
+        "description": "Overview of integration; Integrating with other business applications; Enterprise resource planning (ERP); Customer relationship management (CRM); E-commerce platforms; Supply chain management"
+      }
     ],
     "target": "Accountants and Auditors, Financial Managers and Controllers, IT Professionals, Business Owners and Entrepreneurs, Financial Analysts and Planners, Public Accounting Firms, Companies in manufacturing/retail/services, Non-Profit Organizations, Government Agencies, Educational Institutions, Cloud Accountants, IT Managers, Business Analysts"
   },
@@ -782,11 +1149,26 @@
       "Analyze loopholes and find where security measures failed to take corrective actions for future protection."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Cyber Security", "description": "Overview of cyber security; History and evolution of threats; Types of threats (malware, phishing, ransomware); Frameworks and standards; Importance in modern organizations"},
-      {"name": "Module 2: Malware and Threat Analysis", "description": "Types of Malwares (viruses, worms, trojans); Analysis and reverse engineering; Threat intelligence and modelling; Malware behaviour and tactics; Detection and response strategies"},
-      {"name": "Module 3: Network Security and Defence", "description": "Network fundamentals and protocols; Security architectures and designs; Firewalls and intrusion detection/prevention systems (IDS/IPS); Virtual private networks (VPNs); Network segmentation"},
-      {"name": "Module 4: Cryptography and Encryption", "description": "Introduction to cryptography; Types of encryption (symmetric, asymmetric, hash functions); Algorithms (AES, RSA, SSL/TLS); Key management; Cryptographic attacks and countermeasures"},
-      {"name": "Module 5: Identity and Access Management", "description": "Introduction to IAM; Identity management systems and protocols; Access control models and mechanisms; Authentication and authorization techniques; Identity federation; Single sign-on (SSO)"}
+      {
+        "name": "Introduction to Cyber Security",
+        "description": "Overview of cyber security; History and evolution of threats; Types of threats (malware, phishing, ransomware); Frameworks and standards; Importance in modern organizations"
+      },
+      {
+        "name": "Malware and Threat Analysis",
+        "description": "Types of Malwares (viruses, worms, trojans); Analysis and reverse engineering; Threat intelligence and modelling; Malware behaviour and tactics; Detection and response strategies"
+      },
+      {
+        "name": "Network Security and Defence",
+        "description": "Network fundamentals and protocols; Security architectures and designs; Firewalls and intrusion detection/prevention systems (IDS/IPS); Virtual private networks (VPNs); Network segmentation"
+      },
+      {
+        "name": "Cryptography and Encryption",
+        "description": "Introduction to cryptography; Types of encryption (symmetric, asymmetric, hash functions); Algorithms (AES, RSA, SSL/TLS); Key management; Cryptographic attacks and countermeasures"
+      },
+      {
+        "name": "Identity and Access Management",
+        "description": "Introduction to IAM; Identity management systems and protocols; Access control models and mechanisms; Authentication and authorization techniques; Identity federation; Single sign-on (SSO)"
+      }
     ],
     "target": "IT Professionals (System/Network Administrators, IT Managers), Cyber Security Professionals, Security Analysts, Network Administrators, Compliance and Risk Management Professionals, Law Enforcement and Forensic Professionals, Financial Institutions, Healthcare Organizations, Government Agencies, E-commerce and Retail Businesses, Manufacturing and Industrial Organizations, CISOs"
   },
@@ -812,11 +1194,26 @@
       "Handle the legal ramifications of digital signatures, online contracts, and e-commerce."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Techno Entrepreneurship and Cybersecurity", "description": "Overview of techno entrepreneurship; Entrepreneurial mindset and innovation; Role of technology; Cybersecurity threats and vulnerabilities; Risk management strategies"},
-      {"name": "Module 2: Ideation, Prototyping and Risk Management", "description": "Idea generation and validation; Prototyping and design thinking; Integrating techno entrepreneurship and cyber law; Mitigating legal and regulatory risks; Case studies"},
-      {"name": "Module 3: Business Models and Market Analysis", "description": "Business model canvas; Market analysis and competitive strategy; Revenue models and pricing strategies; Lean start-up methodology; Incident response and disaster recovery"},
-      {"name": "Module 4: Cyber Law Fundamentals", "description": "Introduction to cyber law; Intellectual property rights in the digital age; Data protection and privacy laws; Project presentation; Contract planning and business negotiation"},
-      {"name": "Module 5: E-commerce and Digital Contracts", "description": "E-commerce business models; Digital contracts and signatures; Online dispute resolution; Developing a techno entrepreneurship project; Applying cyber law concepts to the project"}
+      {
+        "name": "Introduction to Techno Entrepreneurship and Cybersecurity",
+        "description": "Overview of techno entrepreneurship; Entrepreneurial mindset and innovation; Role of technology; Cybersecurity threats and vulnerabilities; Risk management strategies"
+      },
+      {
+        "name": "Ideation, Prototyping and Risk Management",
+        "description": "Idea generation and validation; Prototyping and design thinking; Integrating techno entrepreneurship and cyber law; Mitigating legal and regulatory risks; Case studies"
+      },
+      {
+        "name": "Business Models and Market Analysis",
+        "description": "Business model canvas; Market analysis and competitive strategy; Revenue models and pricing strategies; Lean start-up methodology; Incident response and disaster recovery"
+      },
+      {
+        "name": "Cyber Law Fundamentals",
+        "description": "Introduction to cyber law; Intellectual property rights in the digital age; Data protection and privacy laws; Project presentation; Contract planning and business negotiation"
+      },
+      {
+        "name": "E-commerce and Digital Contracts",
+        "description": "E-commerce business models; Digital contracts and signatures; Online dispute resolution; Developing a techno entrepreneurship project; Applying cyber law concepts to the project"
+      }
     ],
     "target": "Entrepreneurs and start-up founders, Tech professionals (developers, engineers, designers), Business students and professionals, Lawyers and legal professionals interested in tech law, Policy makers and government officials, Innovators and inventors, Small business owners and managers"
   },
@@ -847,11 +1244,26 @@
       "Monitor contract etc specific contract etc specific contract etc specific contract management."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Contract Planning", "description": "Overview of contract planning; Strategic objectives and goals; Systematic processes; Roles and responsibilities; Compliance and ethics"},
-      {"name": "Module 2: Contract Fundamentals", "description": "Types of contracts (fixed-price, cost-plus, time and materials); Key contract clauses and their implications; Strategies and objectives; Risk management and mitigation; Contract documents and preparation"},
-      {"name": "Module 3: Market Research and Supplier Analysis", "description": "Needs assessment and identification; Market research and analysis; Supplier identification and evaluation; Request for Proposal (RFP) and Request for Quotation (RFQ) processes; Bid evaluation and selection"},
-      {"name": "Module 4: Tools and Techniques for Management", "description": "Software for cost estimation; Risk management and mitigation; Monitoring and control; Project performance metrics; Key performance indicators (KPIs)"},
-      {"name": "Module 5: Negotiation and Administration", "description": "Negotiation etc specific contract negotiation strategies etc specific contract negotiation techniques; Contract etc specific contract administration and management; Close-out and evaluation; Contract amendment and modification; Dispute resolution and litigation"}
+      {
+        "name": "Introduction to Contract Planning",
+        "description": "Overview of contract planning; Strategic objectives and goals; Systematic processes; Roles and responsibilities; Compliance and ethics"
+      },
+      {
+        "name": "Contract Fundamentals",
+        "description": "Types of contracts (fixed-price, cost-plus, time and materials); Key contract clauses and their implications; Strategies and objectives; Risk management and mitigation; Contract documents and preparation"
+      },
+      {
+        "name": "Market Research and Supplier Analysis",
+        "description": "Needs assessment and identification; Market research and analysis; Supplier identification and evaluation; Request for Proposal (RFP) and Request for Quotation (RFQ) processes; Bid evaluation and selection"
+      },
+      {
+        "name": "Tools and Techniques for Management",
+        "description": "Software for cost estimation; Risk management and mitigation; Monitoring and control; Project performance metrics; Key performance indicators (KPIs)"
+      },
+      {
+        "name": "Negotiation and Administration",
+        "description": "Negotiation etc specific contract negotiation strategies etc specific contract negotiation techniques; Contract etc specific contract administration and management; Close-out and evaluation; Contract amendment and modification; Dispute resolution and litigation"
+      }
     ],
     "target": "Procurement Managers and Specialists, Cost Engineers and Estimators, Project Managers and Engineers, Contract Administrators and Managers, Supply Chain Professionals, Financial Analysts and Project Controllers, Legal Counsel and Contract Lawyers, Business Owners and Entrepreneurs, Oil and Gas Companies, Engineering and Construction Companies, Consulting and Advisory Firms, Government Agencies, University students"
   },
@@ -883,11 +1295,26 @@
       "Prepare for a career as a data analyst or data scientist."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Data Analysis and Data Science", "description": "Overview of Data Analysis and Data Science; Python and R programming foundations; Career paths and business impact; Concepts and methodologies"},
-      {"name": "Module 2: Data Preparation and Cleaning", "description": "Data wrangling and feature engineering; Visualization tools and techniques; Exploratory data analysis; Statistical methods and modelling"},
-      {"name": "Module 3: Data Communication and Visualization", "description": "Communicating insights to stakeholders; Interactive visualization with Tableau and Power BI; D3.js and other visualization tools; Storytelling with data"},
-      {"name": "Module 4: Machine Learning and Statistical Modelling", "description": "Linear and logistic regression; Decision trees and random forests; NumPy, Pandas, and Scikit-Learn; Overfitting and underfitting"},
-      {"name": "Module 5: Advanced Machine Learning and Data Science", "description": "Neural networks and deep learning; Natural language processing (NLP); Big data and cloud computing for data science; Capstone project and final presentation"}
+      {
+        "name": "Introduction to Data Analysis and Data Science",
+        "description": "Overview of Data Analysis and Data Science; Python and R programming foundations; Career paths and business impact; Concepts and methodologies"
+      },
+      {
+        "name": "Data Preparation and Cleaning",
+        "description": "Data wrangling and feature engineering; Visualization tools and techniques; Exploratory data analysis; Statistical methods and modelling"
+      },
+      {
+        "name": "Data Communication and Visualization",
+        "description": "Communicating insights to stakeholders; Interactive visualization with Tableau and Power BI; D3.js and other visualization tools; Storytelling with data"
+      },
+      {
+        "name": "Machine Learning and Statistical Modelling",
+        "description": "Linear and logistic regression; Decision trees and random forests; NumPy, Pandas, and Scikit-Learn; Overfitting and underfitting"
+      },
+      {
+        "name": "Advanced Machine Learning and Data Science",
+        "description": "Neural networks and deep learning; Natural language processing (NLP); Big data and cloud computing for data science; Capstone project and final presentation"
+      }
     ],
     "target": "Business Analysts and Data Analysts, Researchers and Scientists, Entrepreneurs and Small Business Owners, Career Changers and Job Seekers, Finance and Banking professionals, Healthcare and Pharmaceutical professionals, Marketing and Sales professionals, Retail and E-commerce professionals, Manufacturing and Supply Chain professionals"
   },
@@ -918,11 +1345,26 @@
       "Increase skills in project management etc. and human resource management."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Human Resource Management", "description": "Strategic partnership; Strategic business modeling; Evolution of HRM; Ethical and social responsibility; Emerging issues in HR"},
-      {"name": "Module 2: Recruitment and Selection", "description": "Introduction to recruitment and selection; Concepts and importance; Recruitment etc. methods; Job analysis; Selection etc. techniques; Placement etc."},
-      {"name": "Module 3: Training and Development", "description": "Introduction to training and development; Concepts and importance; Training etc. design; Needs assessment; Methods etc.; Delivery etc.; Project etc. Management"},
-      {"name": "Module 4: Employee Relations and Conflict Management", "description": "Introduction to relations and management; Approaches in organizations; Communication etc.; Conflict resolution; Trade unions; Grievance etc."},
-      {"name": "Module 5: Performance and Reward Management", "description": "Introduction to performance and reward; Reward etc. systems; Appraisal etc. systems; Metrics and etc. data analysis; Motivation etc."}
+      {
+        "name": "Introduction to Human Resource Management",
+        "description": "Strategic partnership; Strategic business modeling; Evolution of HRM; Ethical and social responsibility; Emerging issues in HR"
+      },
+      {
+        "name": "Recruitment and Selection",
+        "description": "Introduction to recruitment and selection; Concepts and importance; Recruitment etc. methods; Job analysis; Selection etc. techniques; Placement etc."
+      },
+      {
+        "name": "Training and Development",
+        "description": "Introduction to training and development; Concepts and importance; Training etc. design; Needs assessment; Methods etc.; Delivery etc.; Project etc. Management"
+      },
+      {
+        "name": "Employee Relations and Conflict Management",
+        "description": "Introduction to relations and management; Approaches in organizations; Communication etc.; Conflict resolution; Trade unions; Grievance etc."
+      },
+      {
+        "name": "Performance and Reward Management",
+        "description": "Introduction to performance and reward; Reward etc. systems; Appraisal etc. systems; Metrics and etc. data analysis; Motivation etc."
+      }
     ],
     "target": "Project Managers, HR Professionals, Team Leaders and Supervisors, Small Business Owners and Entrepreneurs, Professionals transitioning into project or HR roles, Government and NGO officials, Administrative and Operations personnel, University Graduates"
   },
@@ -953,11 +1395,26 @@
       "Monitor tax etc specific tax etc specific tax etc administration."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Taxation and Tax Administration", "description": "Taxation laws and regulations; Role of tax administration; Taxation etc types and etc sources; Ethical considerations; Emerging issues"},
-      {"name": "Module 2: Tax Policy and Law", "description": "Introduction to policy and law; Concepts and importance; Policy etc design; Legal framework etc.; International treaties; Local regulations"},
-      {"name": "Module 3: Tax Compliance and Enforcement", "description": "Introduction to compliance and enforcement; Concepts and importance; Enforcement etc. techniques; Tools and etc.; Presentations etc.; Auditing etc."},
-      {"name": "Module 4: Taxpayer Services and Education", "description": "Introduction to services and education; Concepts and importance; Taxpayer etc. education; Support systems; Multi-channel etc.; Communication etc."},
-      {"name": "Module 5: Taxation Technology and Data Analysis", "description": "Introduction to technology and etc. analysis; Taxation etc software; Data visualization etc tools; Advanced techniques; Metrics etc.; Reporting etc."}
+      {
+        "name": "Introduction to Taxation and Tax Administration",
+        "description": "Taxation laws and regulations; Role of tax administration; Taxation etc types and etc sources; Ethical considerations; Emerging issues"
+      },
+      {
+        "name": "Tax Policy and Law",
+        "description": "Introduction to policy and law; Concepts and importance; Policy etc design; Legal framework etc.; International treaties; Local regulations"
+      },
+      {
+        "name": "Tax Compliance and Enforcement",
+        "description": "Introduction to compliance and enforcement; Concepts and importance; Enforcement etc. techniques; Tools and etc.; Presentations etc.; Auditing etc."
+      },
+      {
+        "name": "Taxpayer Services and Education",
+        "description": "Introduction to services and education; Concepts and importance; Taxpayer etc. education; Support systems; Multi-channel etc.; Communication etc."
+      },
+      {
+        "name": "Taxation Technology and Data Analysis",
+        "description": "Introduction to technology and etc. analysis; Taxation etc software; Data visualization etc tools; Advanced techniques; Metrics etc.; Reporting etc."
+      }
     ],
     "target": "Tax Professionals and Administrators, Accountants and Auditors, Financial Advisors and Consultants, Legal Professionals and Policy Makers, Government and NGO officials, Law Enforcement and Forensic Professionals, University Graduates, Business owners and Managers"
   },
@@ -988,11 +1445,26 @@
       "Analyze loopholes etc and find where etc measures failed."
     ],
     "modules": [
-      {"name": "Module 1: Entrepreneurial Mindset and Skills", "description": "Introduction etc basics; Mindset etc.; Skills etc.; Innovation and risk-taking; Goal-setting etc.; Ethical etc. responsibility; Social etc. responsibility"},
-      {"name": "Module 2: Business Fundamentals and Strategy", "description": "Introduction to strategy; Concepts etc.; Strategy etc. design; Marketing etc.; Financial etc. management; Operations etc. management"},
-      {"name": "Module 3: Identifying and Capitalizing on Opportunities", "description": "Introduction to identifying etc.; Concepts etc.; Opportunities etc.; Identifying etc unsatisfied etc. social needs; Capitalizing etc.; Feasibility etc. analysis"},
-      {"name": "Module 4: Business Planning and Structure", "description": "Introduction to planning and structure; Business modeling etc.; Financial projections etc.; Legal etc. forms; Operational etc. management; Resource etc. allocation"},
-      {"name": "Module 5: Access to Capital and Mentoring", "description": "Introduction to access etc.; Capital etc. options; Pitching etc.; Fundraising etc.; Networking etc.; Mentoring etc.; Project presentation"}
+      {
+        "name": "Entrepreneurial Mindset and Skills",
+        "description": "Introduction etc basics; Mindset etc.; Skills etc.; Innovation and risk-taking; Goal-setting etc.; Ethical etc. responsibility; Social etc. responsibility"
+      },
+      {
+        "name": "Business Fundamentals and Strategy",
+        "description": "Introduction to strategy; Concepts etc.; Strategy etc. design; Marketing etc.; Financial etc. management; Operations etc. management"
+      },
+      {
+        "name": "Identifying and Capitalizing on Opportunities",
+        "description": "Introduction to identifying etc.; Concepts etc.; Opportunities etc.; Identifying etc unsatisfied etc. social needs; Capitalizing etc.; Feasibility etc. analysis"
+      },
+      {
+        "name": "Business Planning and Structure",
+        "description": "Introduction to planning and structure; Business modeling etc.; Financial projections etc.; Legal etc. forms; Operational etc. management; Resource etc. allocation"
+      },
+      {
+        "name": "Access to Capital and Mentoring",
+        "description": "Introduction to access etc.; Capital etc. options; Pitching etc.; Fundraising etc.; Networking etc.; Mentoring etc.; Project presentation"
+      }
     ],
     "target": "Youth Entrepreneurs (18-35), Women in Leadership and Business, Aspiring Business Owners, Professionals transitioning into entrepreneurship, NGOs and Government officials, Community Leaders, University Graduates, Small business owners and Managers"
   },
@@ -1023,11 +1495,26 @@
       "Communicate etc findings etc parties."
     ],
     "modules": [
-      {"name": "Module 1: Introduction to Desktop Publishing (DTP)", "description": "Basics of DTP; Creation and editing of documents; Formatting etc. principles; Layout etc. basics; Concepts etc. design"},
-      {"name": "Module 2: Software Mastery (Adobe InDesign and MS Publisher)", "description": "Introduction etc. software mastery; Concepts etc. importance; InDesign etc. mastery; Publisher etc. mastery; Creating etc. templates; Using etc. tools"},
-      {"name": "Module 3: Visual Design and Branding", "description": "Introduction etc. branding; Concepts etc. importance; Design etc. principles; Balancing text etc. images; Branding etc. design; Visualizing etc."},
-      {"name": "Module 4: Professional Output and Publishing", "description": "Introduction etc. output and publishing; Printing etc.; Exporting etc.; Multi-channel etc.; Quality control etc.; Proofreading etc."},
-      {"name": "Module 5: Client Management and Presentation", "description": "Introduction etc. client management; Negotiation etc. strategies; Portfolio etc. development; Case studies; Managing design etc. projects"}
+      {
+        "name": "Introduction to Desktop Publishing (DTP)",
+        "description": "Basics of DTP; Creation and editing of documents; Formatting etc. principles; Layout etc. basics; Concepts etc. design"
+      },
+      {
+        "name": "Software Mastery (Adobe InDesign and MS Publisher)",
+        "description": "Introduction etc. software mastery; Concepts etc. importance; InDesign etc. mastery; Publisher etc. mastery; Creating etc. templates; Using etc. tools"
+      },
+      {
+        "name": "Visual Design and Branding",
+        "description": "Introduction etc. branding; Concepts etc. importance; Design etc. principles; Balancing text etc. images; Branding etc. design; Visualizing etc."
+      },
+      {
+        "name": "Professional Output and Publishing",
+        "description": "Introduction etc. output and publishing; Printing etc.; Exporting etc.; Multi-channel etc.; Quality control etc.; Proofreading etc."
+      },
+      {
+        "name": "Client Management and Presentation",
+        "description": "Introduction etc. client management; Negotiation etc. strategies; Portfolio etc. development; Case studies; Managing design etc. projects"
+      }
     ],
     "target": "Aspiring Graphic Designers, Administrative professionals (Office managers, secretaries), Multimedia Specialists, Marketing and Sales professionals, Students and University Graduates, Entrepreneurs and Small Business Owners, Professionals transitioning into design etc. roles"
   }

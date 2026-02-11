@@ -53,7 +53,7 @@ export default function ProgramCard({ program, onClick }: ProgramProps) {
       </CardHeader>
       
       <CardContent className="p-8 pt-6 flex-grow">
-        <div className="flex items-center gap-6 mb-8 text-[11px] font-bold uppercase tracking-widest text-slate-500">
+        <div className="flex items-center gap-6 mb-8 text-[11px] font-bold uppercase tracking-widest text-slate-700">
            <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-primary rounded-full" />
               {program.duration}
@@ -64,7 +64,7 @@ export default function ProgramCard({ program, onClick }: ProgramProps) {
            </div>
         </div>
         
-        <p className="text-slate-600 text-sm leading-relaxed line-clamp-3">
+        <p className="text-slate-800 text-sm leading-relaxed line-clamp-3">
           {program.objectives}
         </p>
       </CardContent>

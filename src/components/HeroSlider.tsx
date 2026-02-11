@@ -1,8 +1,14 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ChevronLeft, ChevronRight, Play } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import Image from "next/image";
 
 const slides = [
@@ -128,18 +134,35 @@ export default function HeroSlider() {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row items-center gap-6">
-                  <Button size="lg" className="nbu-gradient text-white px-10 h-16 text-sm font-bold uppercase tracking-widest rounded-none group w-full sm:w-auto">
-                    {slide.cta}
-                    <ArrowRight className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                  </Button>
+                  <Link href={slide.link} className="w-full sm:w-auto">
+                    <Button size="lg" className="nbu-gradient text-white px-10 h-16 text-sm font-bold uppercase tracking-widest rounded-none group w-full">
+                      {slide.cta}
+                      <ArrowRight className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </Link>
                   
                   {slide.type === "video" && (
-                    <button className="flex items-center gap-4 group">
-                      <div className="w-14 h-14 rounded-full border-2 border-white/20 flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-all backdrop-blur-sm">
-                        <Play className="w-5 h-5 ml-1 text-white fill-current" />
-                      </div>
-                      <span className="text-sm font-bold uppercase tracking-widest text-white">Full Experience</span>
-                    </button>
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <button className="flex items-center gap-4 group">
+                          <div className="w-14 h-14 rounded-full border-2 border-white/20 flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-all backdrop-blur-sm">
+                            <Play className="w-5 h-5 ml-1 text-white fill-current" />
+                          </div>
+                          <span className="text-sm font-bold uppercase tracking-widest text-white">Full Experience</span>
+                        </button>
+                      </DialogTrigger>
+                      <DialogContent className="max-w-5xl bg-slate-950/90 border-slate-800 p-0 overflow-hidden">
+                        <div className="relative aspect-video">
+                          <video
+                            autoPlay
+                            controls
+                            className="w-full h-full object-cover"
+                          >
+                            <source src={slide.src} type="video/mp4" />
+                          </video>
+                        </div>
+                      </DialogContent>
+                    </Dialog>
                   )}
                 </div>
               </div>

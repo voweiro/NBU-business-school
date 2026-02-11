@@ -22,12 +22,12 @@ export default function Footer() {
                 <span className="font-extrabold text-xl leading-none tracking-tighter text-white uppercase">
                   NBU <span className="text-primary italic">Business</span>
                 </span>
-                <span className="text-[10px] font-bold tracking-[0.2em] text-slate-500 mt-1 uppercase">
+                <span className="text-[10px] font-bold tracking-[0.2em] text-slate-400 mt-1 uppercase">
                   School of Excellence
                 </span>
               </div>
             </Link>
-            <p className="text-slate-400 text-sm leading-relaxed max-w-xs font-medium">
+            <p className="text-slate-300 text-sm leading-relaxed max-w-xs font-medium">
               A university-based institution dedicated to academic excellence, 
               offering professional diploma programmes anchored on research and industry needs.
             </p>
@@ -41,7 +41,7 @@ export default function Footer() {
                 <li key={item}>
                   <Link 
                     href={item === 'Home' ? '/' : item === 'Programmes' ? '/programs' : `/${item.toLowerCase()}`} 
-                    className="text-slate-400 hover:text-white transition-colors text-sm font-bold flex items-center group uppercase tracking-widest"
+                    className="text-slate-300 hover:text-white transition-colors text-sm font-bold flex items-center group uppercase tracking-widest"
                   >
                     <ArrowRight className="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all text-primary" />
                     {item}
@@ -59,7 +59,7 @@ export default function Footer() {
                 <li key={item}>
                   <Link 
                     href="#" 
-                    className="text-slate-400 hover:text-white transition-colors text-sm font-bold flex items-center group uppercase tracking-widest"
+                    className="text-slate-300 hover:text-white transition-colors text-sm font-bold flex items-center group uppercase tracking-widest"
                   >
                     <ArrowRight className="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all text-primary" />
                     {item}
@@ -75,18 +75,18 @@ export default function Footer() {
             <div className="space-y-6">
               <div className="flex gap-4">
                 <MapPin className="w-5 h-5 text-primary shrink-0" />
-                <p className="text-slate-400 text-sm leading-relaxed font-medium">
+                <p className="text-slate-300 text-sm leading-relaxed font-medium">
                   Kilometre 10 PH/Aba Expressway,<br />
                   Asa, Abia State, Nigeria.
                 </p>
               </div>
               <div className="flex gap-4 items-center">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                <p className="text-slate-400 text-sm font-medium">info@nbu.edu.ng</p>
+                <p className="text-slate-300 text-sm font-medium">info@nbu.edu.ng</p>
               </div>
               <div className="flex gap-4 items-center">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                <p className="text-slate-400 text-sm font-medium">+234 703 256 5918</p>
+                <p className="text-slate-300 text-sm font-medium">+234 703 256 5918</p>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-8">
-          <p className="text-slate-500 text-[10px] font-bold uppercase tracking-[0.2em]">
+          <p className="text-slate-400 text-[10px] font-bold uppercase tracking-[0.2em]">
             © 2025 Nigerian British University Business School. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6">

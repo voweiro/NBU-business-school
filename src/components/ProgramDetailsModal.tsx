@@ -96,7 +96,7 @@ export default function ProgramDetailsModal({ program, isOpen, onClose }: Progra
               onClick={onClose}
               className="absolute top-6 right-6 z-50 p-2 hover:bg-gray-100 transition-colors"
             >
-              <X className="w-6 h-6 text-slate-400" />
+              <X className="w-6 h-6 text-slate-600" />
             </button>
 
             <ScrollArea className="flex-1 min-h-0 p-10 lg:p-16">
@@ -106,7 +106,7 @@ export default function ProgramDetailsModal({ program, isOpen, onClose }: Progra
                     <span className="w-8 h-[2px] bg-primary" />
                     Overview
                   </h4>
-                  <p className="text-slate-600 leading-relaxed text-lg">
+                  <p className="text-slate-800 leading-relaxed text-lg">
                     {program.objectives}
                   </p>
                 </section>
@@ -134,11 +134,10 @@ export default function ProgramDetailsModal({ program, isOpen, onClose }: Progra
                   <div className="space-y-6">
                     {program.modules.map((module, i) => (
                       <div key={i} className="group cursor-default">
-                        <h5 className="font-extrabold text-slate-900 mb-2 group-hover:text-primary transition-colors flex items-center gap-3">
-                          <span className="text-xs text-slate-300 font-black tracking-tighter uppercase">Module {i+1}</span>
+                        <h5 className="font-extrabold text-slate-900 mb-2 group-hover:text-primary transition-colors">
                           {module.name}
                         </h5>
-                        <p className="text-sm text-slate-500 leading-relaxed">{module.description}</p>
+                        <p className="text-sm text-slate-700 leading-relaxed">{module.description}</p>
                       </div>
                     ))}
                   </div>
@@ -147,10 +146,7 @@ export default function ProgramDetailsModal({ program, isOpen, onClose }: Progra
             </ScrollArea>
             
             {/* Footer Call to Action */}
-            <div className="p-8 bg-gray-50 border-t border-gray-100 flex items-center justify-between">
-                <div className="text-[10px] font-bold uppercase tracking-widest text-slate-500">
-                  Application Deadline: March 1, 2025
-                </div>
+            <div className="p-8 bg-gray-50 border-t border-gray-100 flex items-center justify-end">
                 <Button className="nbu-gradient text-white rounded-none h-12 px-8 uppercase font-bold text-xs tracking-widest">
                   Apply Online
                 </Button>

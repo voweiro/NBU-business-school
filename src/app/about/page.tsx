@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mb-20">
             <h2 className="text-[11px] font-black uppercase tracking-[0.4em] text-primary mb-6">Our Foundation</h2>
             <h3 className="text-4xl md:text-5xl font-black text-slate-950 mb-8 uppercase leading-[1.1]">The Philosophy of <br />Nigerian British University</h3>
-            <p className="text-lg text-slate-600 leading-relaxed font-medium">
+            <p className="text-lg text-slate-800 leading-relaxed font-medium">
               Based on its core values, our philosophy aims to inspire self-motivation and excellence as a prerequisite for building an enviable professional career.
             </p>
           </div>
@@ -81,7 +81,7 @@ export default function AboutPage() {
                     <Eye className="w-5 h-5 text-primary" />
                     <h5 className="font-black uppercase text-xs tracking-widest">Vision Statement</h5>
                   </div>
-                  <p className="text-slate-400 text-lg leading-relaxed font-medium pl-9 border-l border-white/5">
+                  <p className="text-slate-200 text-lg leading-relaxed font-medium pl-9 border-l border-white/5">
                     To be a world-class British University in Nigeria, anchored on academic excellence and distinguished by a robust interface between research and industry.
                   </p>
                 </div>
@@ -90,7 +90,7 @@ export default function AboutPage() {
                     <Target className="w-5 h-5 text-primary" />
                     <h5 className="font-black uppercase text-xs tracking-widest">Mission Statement</h5>
                   </div>
-                  <p className="text-slate-400 text-lg leading-relaxed font-medium pl-9 border-l border-white/5">
+                  <p className="text-slate-200 text-lg leading-relaxed font-medium pl-9 border-l border-white/5">
                     To develop globally competitive graduates by offering proactive and distinctive research opportunities, a learning and professional mentoring environment with adequate international collaborations.
                   </p>
                 </div>
@@ -108,7 +108,7 @@ export default function AboutPage() {
                     <Brain className="w-5 h-5 text-primary" />
                     <h5 className="font-black uppercase text-xs tracking-widest">School Vision</h5>
                   </div>
-                  <p className="text-slate-400 text-lg leading-relaxed font-medium pl-9 border-l border-white/5">
+                  <p className="text-slate-200 text-lg leading-relaxed font-medium pl-9 border-l border-white/5">
                     To be a globally recognized business school, fostering innovative leaders who transform businesses and ethical practices for the betterment of the society.
                   </p>
                 </div>
@@ -117,7 +117,7 @@ export default function AboutPage() {
                     <Users2 className="w-5 h-5 text-primary" />
                     <h5 className="font-black uppercase text-xs tracking-widest">School Mission</h5>
                   </div>
-                  <p className="text-slate-400 text-lg leading-relaxed font-medium pl-9 border-l border-white/5">
+                  <p className="text-slate-200 text-lg leading-relaxed font-medium pl-9 border-l border-white/5">
                     Our mission is to provide world-class business education and research that empowers students, supports economic development, and engages with communities to promote responsible and inclusive leadership.
                   </p>
                 </div>
@@ -134,7 +134,7 @@ export default function AboutPage() {
             <h2 className="text-4xl md:text-5xl font-black text-slate-950 uppercase leading-none shrink-0">
                Core <span className="text-primary italic font-serif">Objectives.</span>
             </h2>
-            <p className="text-slate-500 max-w-lg font-medium">To continuously update the technical skills and competences of students through quality teaching, research and practical learning in order to enhance productivity, wealth maximization and social responsiveness.</p>
+            <p className="text-slate-700 max-w-lg font-medium">To continuously update the technical skills and competences of students through quality teaching, research and practical learning in order to enhance productivity, wealth maximization and social responsiveness.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -147,7 +147,7 @@ export default function AboutPage() {
                "Promote responsible and inclusive leadership."
             ].map((obj, i) => (
               <div key={i} className="group p-8 border-2 border-slate-50 hover:border-primary/20 transition-all duration-300 flex items-start gap-6">
-                <span className="text-2xl font-black text-slate-100 group-hover:text-primary/10 transition-colors uppercase italic font-serif leading-none mt-1">{(i+1).toString().padStart(2, '0')}</span>
+                <span className="text-2xl font-black text-slate-400 group-hover:text-primary transition-colors uppercase italic font-serif leading-none mt-1">{(i+1).toString().padStart(2, '0')}</span>
                 <p className="text-slate-700 font-bold leading-relaxed">{obj}</p>
               </div>
             ))}
@@ -162,7 +162,7 @@ export default function AboutPage() {
             <div>
               <div className="w-12 h-1 bg-primary mb-10" />
               <h3 className="text-4xl font-black text-slate-950 mb-10 uppercase tracking-tight">Academic <br />Methodology</h3>
-              <div className="space-y-6 text-slate-600 text-lg leading-relaxed font-medium">
+              <div className="space-y-6 text-slate-800 text-lg leading-relaxed font-medium">
                 <p>
                   NBU Business School is a university-based Business School that offers a wide range of professional and academic programs.
                   The academics are characterized by a combination of rigorous coursework, practical teaching and research, experiential learning 
@@ -176,7 +176,7 @@ export default function AboutPage() {
               
               <div className="mt-16 bg-white p-12 border-l-4 border-primary shadow-xl">
                  <h5 className="font-black text-slate-950 text-sm tracking-widest uppercase mb-4">Strategic Mandate</h5>
-                 <p className="text-slate-500 font-medium italic">
+                 <p className="text-slate-700 font-medium italic">
                    "Responsible for the coordination of NBU's Strategic Foreign Collaboration, Partnerships and Affiliations."
                  </p>
               </div>
@@ -189,7 +189,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-black uppercase text-xs tracking-widest mb-4">Onsite-Full Time</h4>
-                    <p className="text-xs text-slate-500 uppercase tracking-widest font-bold">Mode [01]</p>
+                    <p className="text-xs text-slate-300 uppercase tracking-widest font-bold">Mode [01]</p>
                   </div>
                </div>
                <div className="bg-white p-10 border border-slate-100 flex flex-col justify-between group">
@@ -198,7 +198,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-black uppercase text-xs tracking-widest mb-4">Online-Full Time</h4>
-                    <p className="text-xs text-slate-300 uppercase tracking-widest font-bold">Mode [03]</p>
+                    <p className="text-xs text-slate-500 uppercase tracking-widest font-bold">Mode [03]</p>
                   </div>
                </div>
                <div className="bg-white p-10 border border-slate-100 flex flex-col justify-between group">
@@ -207,7 +207,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-black uppercase text-xs tracking-widest mb-4">Blended Learning</h4>
-                    <p className="text-xs text-slate-300 uppercase tracking-widest font-bold">Mode [05]</p>
+                    <p className="text-xs text-slate-500 uppercase tracking-widest font-bold">Mode [05]</p>
                   </div>
                </div>
                <div className="bg-slate-900 p-10 text-white flex flex-col justify-between group">
@@ -216,7 +216,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-black uppercase text-xs tracking-widest mb-4">Certificates & Diplomas</h4>
-                    <p className="text-xs text-slate-500 uppercase tracking-widest font-bold">Nature of Awards</p>
+                    <p className="text-xs text-slate-300 uppercase tracking-widest font-bold">Nature of Awards</p>
                   </div>
                </div>
             </div>
@@ -230,7 +230,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto text-center mb-24">
             <h2 className="text-4xl md:text-5xl font-black text-slate-950 uppercase mb-8">Governance <span className="text-primary">&</span> Leadership</h2>
             <div className="w-24 h-1 bg-primary mx-auto mb-10" />
-            <p className="text-slate-500 font-medium">The Business School is governed by the NBU Business School Board, ensuring rigorous academic standards and strategic industry alignment.</p>
+            <p className="text-slate-700 font-medium">The Business School is governed by the NBU Business School Board, ensuring rigorous academic standards and strategic industry alignment.</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -249,7 +249,7 @@ export default function AboutPage() {
                    ].map((item, i) => (
                      <div key={i} className="flex gap-4 items-start pb-6 border-b border-slate-200 last:border-0 group">
                         <CheckCircle2 className="w-5 h-5 text-primary shrink-0 transition-transform group-hover:scale-110" />
-                        <p className="text-slate-600 font-bold text-sm leading-relaxed">{item}</p>
+                        <p className="text-slate-800 font-bold text-sm leading-relaxed">{item}</p>
                      </div>
                    ))}
                 </div>
@@ -258,7 +258,7 @@ export default function AboutPage() {
              {/* Membership */}
              <div className="space-y-12">
                 <div>
-                   <h4 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400 mb-8 border-b border-gray-100 pb-4">Principal Board Membership</h4>
+                   <h4 className="text-xs font-black uppercase tracking-[0.3em] text-slate-500 mb-8 border-b border-gray-100 pb-4">Principal Board Membership</h4>
                    <ul className="space-y-4">
                       <li className="flex justify-between items-center text-sm font-bold uppercase tracking-widest text-slate-900 border-b border-gray-50 pb-3"><span>Dean of Business School</span> <span className="text-primary">Chairman</span></li>
                       <li className="flex justify-between items-center text-sm font-bold text-slate-600 border-b border-gray-50 pb-3"><span>Heads of Departments</span> <span className="text-[10px] uppercase tracking-widest">Member</span></li>
@@ -271,7 +271,7 @@ export default function AboutPage() {
                       <Award className="w-10 h-10 text-primary" />
                       <h4 className="font-black text-xl uppercase tracking-tight">Board of Studies</h4>
                    </div>
-                   <p className="text-slate-400 text-sm leading-relaxed mb-6 font-medium">Serves as the Clearing House for matters relating to academic programmes and examinations.</p>
+                   <p className="text-slate-200 text-sm leading-relaxed mb-6 font-medium">Serves as the Clearing House for matters relating to academic programmes and examinations.</p>
                    <div className="text-[10px] font-black uppercase tracking-widest text-primary">Quorum: 40% of membership</div>
                 </div>
              </div>
@@ -284,8 +284,8 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
              <div>
-                <h4 className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-8">Marketing & Advertising Strategy</h4>
-                <p className="text-slate-600 text-lg leading-relaxed font-medium mb-10">
+                <h4 className="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-8">Marketing & Advertising Strategy</h4>
+                <p className="text-slate-800 text-lg leading-relaxed font-medium mb-10">
                    Our strategies maximally leverage platforms such as Facebook, LinkedIn, Instagram, and YouTube.
                    We target associations and industry hubs using personal contacts and clear, consistent messaging.
                 </p>
@@ -296,7 +296,7 @@ export default function AboutPage() {
                    <div className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center text-slate-400"><Twitter className="w-4 h-4" /></div>
                 </div>
              </div>
-             <div className="bg-primary p-12 text-white shadow-2xl skew-y-1">
+             <div className="bg-[#E62627] p-12 text-white shadow-2xl skew-y-1">
                 <div className="-skew-y-1">
                    <h3 className="text-3xl font-black mb-8 leading-tight">FILLING THE <br />SKILL-GAP.</h3>
                    <p className="text-white/80 font-bold mb-10 leading-relaxed">

@@ -65,7 +65,7 @@ export default function ProgramsGrid({
             <h2 className="text-4xl md:text-6xl font-black text-slate-950 mb-6 leading-none uppercase">
               {limit ? <>SELECTED <br /> <span className="text-primary italic font-serif">PATHWAYS.</span></> : <>FIND YOUR <br /> <span className="text-primary italic font-serif">PATHWAY.</span></>}
             </h2>
-            <p className="text-slate-600 text-lg leading-relaxed">
+            <p className="text-slate-800 text-lg leading-relaxed">
               Our world-class diploma programmes are structured to meet the needs of 
               professionals looking to enhance their skills and drive industry innovation.
             </p>
@@ -74,7 +74,7 @@ export default function ProgramsGrid({
           {showSearchFilter && (
             <div className="flex flex-col gap-6 w-full md:w-96">
               <div className="relative">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" />
                 <Input 
                   placeholder="Search programmes..." 
                   className="pl-12 h-16 border-2 border-gray-100 rounded-none focus-visible:border-primary transition-colors text-slate-900"
@@ -102,7 +102,7 @@ export default function ProgramsGrid({
                 className={`whitespace-nowrap px-8 py-3 text-[11px] font-bold uppercase tracking-widest border-2 transition-all duration-300 ${
                   activeCategory === category 
                   ? "bg-slate-950 border-slate-950 text-white shadow-xl" 
-                  : "bg-white border-gray-100 text-slate-600 hover:border-primary hover:text-primary"
+                  : "bg-white border-gray-100 text-slate-800 hover:border-primary hover:text-primary"
                 }`}
               >
                 {category}
@@ -159,7 +159,7 @@ export default function ProgramsGrid({
                   className={`w-14 h-14 font-black text-sm uppercase transition-all duration-300 ${
                     currentPage === i + 1
                     ? "bg-primary text-white scale-110 shadow-lg"
-                    : "bg-white text-slate-400 hover:bg-slate-50 border-2 border-transparent"
+                    : "bg-white text-slate-500 hover:bg-slate-50 border-2 border-transparent"
                   }`}
                 >
                   {String(i + 1).padStart(2, '0')}

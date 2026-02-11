@@ -13,25 +13,12 @@ export default function Navbar() {
     { name: "Programmes", href: "/programs" },
     { name: "About", href: "/about" },
     { name: "Admission", href: "#" },
-    { name: "Research", href: "#" },
+
   ];
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-white border-b border-gray-100 shadow-sm">
-      {/* Top Utility Bar */}
-      <div className="bg-gray-50 border-b border-gray-100 hidden md:block">
-        <div className="container mx-auto px-4 h-10 flex items-center justify-between text-[11px] font-bold uppercase tracking-wider text-muted-foreground">
-          <div className="flex items-center space-x-6">
-            <Link href="#" className="hover:text-primary transition-colors">News & Events</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Alumni</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Career Services</Link>
-          </div>
-          <div className="flex items-center space-x-6">
-            <Link href="#" className="hover:text-primary transition-colors">Student Portal</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Staff Email</Link>
-          </div>
-        </div>
-      </div>
+
 
       {/* Main Navbar */}
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
@@ -49,7 +36,7 @@ export default function Navbar() {
             <span className="font-extrabold text-lg md:text-xl leading-none tracking-tighter text-slate-900 uppercase">
               NBU <span className="text-[#e62627]">Business</span>
             </span>
-            <span className="text-[8px] md:text-[10px] font-bold tracking-[0.2em] text-muted-foreground mt-1 uppercase">
+            <span className="text-[8px] md:text-[10px] font-bold tracking-[0.2em] text-slate-500 mt-1 uppercase">
               School of Excellence
             </span>
           </div>
@@ -97,8 +84,8 @@ export default function Navbar() {
           onClick={(e) => e.stopPropagation()}
         >
           <div className="flex items-center justify-between mb-12">
-            <span className="text-xs font-black uppercase tracking-[0.3em] text-slate-400">Navigation</span>
-            <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 text-slate-400 hover:text-slate-900 transition-colors">
+            <span className="text-xs font-black uppercase tracking-[0.3em] text-slate-500">Navigation</span>
+            <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 text-slate-500 hover:text-slate-900 transition-colors">
               <X className="w-6 h-6" />
             </button>
           </div>
@@ -130,7 +117,7 @@ export default function Navbar() {
              </div>
              
              <div className="mt-10 flex flex-col gap-2">
-               <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Student Resources</span>
+               <span className="text-[10px] font-black uppercase tracking-widest text-slate-500">Student Resources</span>
                <div className="flex flex-wrap gap-4 text-[11px] font-bold text-slate-600">
                  <Link href="#" className="hover:text-primary transition-colors">Portal</Link>
                  <Link href="#" className="hover:text-primary transition-colors">LMS</Link>

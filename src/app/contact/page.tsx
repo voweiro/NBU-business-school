@@ -43,21 +43,21 @@ export default function ContactPage() {
                 <div className="p-8 bg-slate-50 border border-gray-100 academic-card">
                   <Mail className="w-8 h-8 text-primary mb-6" />
                   <h4 className="font-extrabold text-slate-900 mb-2 uppercase text-xs tracking-widest">Email Support</h4>
-                  <p className="text-slate-600 text-sm font-bold">info@nbu.edu.ng</p>
-                  <p className="text-slate-400 text-xs mt-1">admissions@nbu.edu.ng</p>
+                  <p className="text-slate-800 text-sm font-bold">info@nbu.edu.ng</p>
+                  <p className="text-slate-600 text-xs mt-1">admissions@nbu.edu.ng</p>
                 </div>
                 
                 <div className="p-8 bg-slate-50 border border-gray-100 academic-card">
                   <Phone className="w-8 h-8 text-primary mb-6" />
                   <h4 className="font-extrabold text-slate-900 mb-2 uppercase text-xs tracking-widest">Phone Line</h4>
-                  <p className="text-slate-600 text-sm font-bold">+234 703 256 5918</p>
-                  <p className="text-slate-400 text-xs mt-1">+234 915 386 3605</p>
+                  <p className="text-slate-800 text-sm font-bold">+234 703 256 5918</p>
+                  <p className="text-slate-600 text-xs mt-1">+234 915 386 3605</p>
                 </div>
                 
                 <div className="p-8 bg-slate-50 border border-gray-100 academic-card md:col-span-2">
                   <MapPin className="w-8 h-8 text-primary mb-6" />
                   <h4 className="font-extrabold text-slate-900 mb-2 uppercase text-xs tracking-widest">Our Campus</h4>
-                  <p className="text-slate-600 text-sm font-bold leading-relaxed">
+                  <p className="text-slate-800 text-sm font-bold leading-relaxed">
                     Kilometre 10 Port Harcourt/Aba Expressway,<br />
                     Asa, Abia State, Nigeria.
                   </p>
@@ -66,7 +66,7 @@ export default function ContactPage() {
 
               {/* Social Channels */}
               <div className="pt-10 border-t border-gray-100">
-                <h5 className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400 mb-6">Follow Our Updates</h5>
+                <h5 className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-500 mb-6">Follow Our Updates</h5>
                 <div className="flex gap-4">
                   {['Facebook', 'LinkedIn', 'Instagram', 'Twitter'].map((social) => (
                     <a key={social} href="#" className="px-5 py-2 border border-gray-200 text-[10px] font-bold uppercase tracking-widest hover:border-primary hover:text-primary transition-all">
@@ -84,20 +84,20 @@ export default function ContactPage() {
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Full Name</label>
+                    <label className="text-[10px] font-bold uppercase tracking-widest text-slate-300">Full Name</label>
                     <Input className="bg-white/5 border-white/10 rounded-none h-14 text-white focus-visible:border-primary" />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Email Address</label>
+                    <label className="text-[10px] font-bold uppercase tracking-widest text-slate-300">Email Address</label>
                     <Input className="bg-white/5 border-white/10 rounded-none h-14 text-white focus-visible:border-primary" />
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Subject</label>
+                  <label className="text-[10px] font-bold uppercase tracking-widest text-slate-300">Subject</label>
                   <Input className="bg-white/5 border-white/10 rounded-none h-14 text-white focus-visible:border-primary" />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Message</label>
+                  <label className="text-[10px] font-bold uppercase tracking-widest text-slate-300">Message</label>
                   <textarea className="w-full bg-white/5 border border-white/10 rounded-none h-40 p-4 text-white focus-visible:border-primary outline-none transition-all" />
                 </div>
                 <Button className="w-full nbu-gradient h-16 text-white font-black uppercase tracking-[0.3em] text-xs shadow-xl">

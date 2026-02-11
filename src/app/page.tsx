@@ -22,7 +22,7 @@ export default function Home() {
                   A New Era of <br />
                   <span className="text-primary italic font-serif">Business</span> Education.
                 </h3>
-                <p className="text-lg text-slate-600 leading-relaxed font-medium mb-10">
+                <p className="text-lg text-slate-800 leading-relaxed font-medium mb-10">
                   NBU Business School is a university-based institution offering a wide range of professional and academic programs. 
                   Our approach is characterized by rigorous coursework, practical teaching, and a robust interface with industry experts.
                 </p>
@@ -33,7 +33,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h5 className="font-black text-slate-950 text-xs uppercase tracking-widest mb-2">Global Approach</h5>
-                      <p className="text-xs text-slate-500 font-bold leading-relaxed">Interdisciplinary focus for success in the global business environment.</p>
+                      <p className="text-xs text-slate-700 font-bold leading-relaxed">Interdisciplinary focus for success in the global business environment.</p>
                     </div>
                   </div>
                   <div className="flex gap-4 items-start">
@@ -42,7 +42,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h5 className="font-black text-slate-950 text-xs uppercase tracking-widest mb-2">Career Growth</h5>
-                      <p className="text-xs text-slate-500 font-bold leading-relaxed">Dedicated internships, mentorship, and high-impact networking events.</p>
+                      <p className="text-xs text-slate-700 font-bold leading-relaxed">Dedicated internships, mentorship, and high-impact networking events.</p>
                     </div>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-black text-slate-950 mb-10 leading-[1.1] uppercase">
                 Bridging Academic <br />Excellence <span className="text-primary italic font-serif">With</span> Industry.
               </h2>
-              <p className="text-lg text-slate-600 leading-relaxed font-medium mb-12 max-w-xl">
+              <p className="text-lg text-slate-800 leading-relaxed font-medium mb-12 max-w-xl">
                 NBU Business School is anchored on the vision to be a world-class British University in Nigeria, 
                 distinctly positioned at the intersection of rigorous research and practical industrial engagement.
               </p>
@@ -89,7 +89,7 @@ export default function Home() {
                     <Eye className="w-5 h-5 text-primary" />
                     <h5 className="font-extrabold uppercase text-xs tracking-widest text-slate-950">Vision</h5>
                   </div>
-                  <p className="text-sm text-slate-500 font-bold leading-relaxed border-l-2 border-slate-200 pl-6">
+                  <p className="text-sm text-slate-700 font-bold leading-relaxed border-l-2 border-slate-200 pl-6">
                     Achieving world-class status through academic rigor and industry interface.
                   </p>
                 </div>
@@ -98,7 +98,7 @@ export default function Home() {
                     <Target className="w-5 h-5 text-primary" />
                     <h5 className="font-extrabold uppercase text-xs tracking-widest text-slate-950">Mission</h5>
                   </div>
-                  <p className="text-sm text-slate-500 font-bold leading-relaxed border-l-2 border-slate-200 pl-6">
+                  <p className="text-sm text-slate-700 font-bold leading-relaxed border-l-2 border-slate-200 pl-6">
                     Developing globally competitive graduates through proactive research and mentorship.
                   </p>
                 </div>
@@ -111,7 +111,7 @@ export default function Home() {
                 <div className="-skew-y-1">
                   <Sparkles className="w-8 h-8 text-primary mb-8" />
                   <h4 className="text-2xl font-black text-slate-950 mb-6 font-serif italic">"Excellence as a Prerequisite"</h4>
-                  <p className="text-slate-600 font-medium leading-relaxed mb-8 italic">
+                  <p className="text-slate-800 font-medium leading-relaxed mb-8 italic">
                     Our philosophy aims to inspire self-motivation and excellence, building the foundation for an enviable professional career through mentorship and integrity.
                   </p>
                   <a href="/about" className="text-[10px] font-black uppercase tracking-widest text-primary flex items-center gap-2 hover:gap-4 transition-all">
@@ -125,21 +125,30 @@ export default function Home() {
       </section>
 
       {/* Core Values Section */}
-      <section className="py-24 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
-            {[
-              { icon: GraduationCap, label: "Mentorship", color: "bg-slate-950" },
-              { icon: Zap, label: "Dynamism", color: "bg-primary" },
-              { icon: Shield, label: "Integrity", color: "bg-slate-900" },
-              { icon: Scale, label: "Equity", color: "bg-slate-950" },
-              { icon: HeartHandshake, label: "Diversity", color: "bg-slate-900" }
-            ].map((value, i) => (
-              <div key={i} className="flex flex-col items-center text-center group">
-                <div className={`w-20 h-20 ${value.color} flex items-center justify-center mb-6 shadow-xl transition-transform group-hover:-translate-y-2`}>
-                   <value.icon className="w-8 h-8 text-white" />
-                </div>
-                <h4 className="font-black uppercase text-[10px] tracking-[0.3em] text-slate-950">{value.label}</h4>
+      {/* Core Values Section - Infinite Carousel */}
+      <section className="py-24 bg-white overflow-hidden">
+        <div className="w-full">
+          <div className="flex w-max animate-marquee-lr pause-on-hover hover:cursor-default">
+            {/* Double the items for seamless loop */}
+            {[...Array(2)].map((_, setIndex) => (
+              <div key={setIndex} className="flex gap-20 mx-10">
+                {[
+                  { icon: GraduationCap, label: "Mentorship", color: "bg-slate-950" },
+                  { icon: Zap, label: "Dynamism", color: "bg-primary" },
+                  { icon: Shield, label: "Integrity", color: "bg-slate-900" },
+                  { icon: Scale, label: "Equity", color: "bg-slate-950" },
+                  { icon: HeartHandshake, label: "Diversity", color: "bg-slate-900" },
+                  { icon: GraduationCap, label: "Mentorship", color: "bg-slate-950" },
+                  { icon: Zap, label: "Dynamism", color: "bg-primary" },
+                  { icon: Shield, label: "Integrity", color: "bg-slate-900" }
+                ].map((value, i) => (
+                  <div key={`${setIndex}-${i}`} className="flex flex-col items-center text-center group min-w-[120px]">
+                    <div className={`w-20 h-20 ${value.color} flex items-center justify-center mb-6 shadow-xl transition-transform group-hover:-translate-y-2`}>
+                       <value.icon className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="font-black uppercase text-[10px] tracking-[0.3em] text-slate-950">{value.label}</h4>
+                  </div>
+                ))}
               </div>
             ))}
           </div>
@@ -169,7 +178,7 @@ export default function Home() {
                 <span className="text-primary italic font-serif">LEARNING</span> <br />
                 ARCHITECTURE.
               </h2>
-              <p className="text-xl text-slate-400 font-medium leading-relaxed max-w-md">
+              <p className="text-xl text-slate-300 font-medium leading-relaxed max-w-md">
                 We bridge the gap between busy professionals and world-class education with multiple modes of delivery.
               </p>
             </div>
