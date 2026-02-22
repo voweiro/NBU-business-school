@@ -15,37 +15,37 @@ const slides = [
   {
     type: "video",
     src: "/hero-section/drone view cr send.mp4",
-    title: "A New Era of Excellence",
+    title: "Business Education Without Barriers",
     subtitle: "NBU Business School",
-    description: "Join Africa's premier institution for executive education, where innovation meets tradition in a world-class academic environment.",
+    description: "In partnership with Keele University and Leeds Beckett University, we deliver world-class professional education both Online and Onsite.",
     cta: "Start Application",
     link: "#"
   },
   {
     type: "image",
     src: "/hero-section/KC2A7298.jpg",
-    title: "World-Class Faculty",
-    subtitle: "Global Standards",
-    description: "Learn from industry giants and academic leaders committed to shaping the next generation of global business titans.",
+    title: "Global Standards Local Impact",
+    subtitle: "Strategic Partnerships",
+    description: "Earn globally recognized certifications through our collaborative programmes with leading British institutions.",
     cta: "Meet Our Faculty",
     link: "/about"
   },
   {
     type: "image",
     src: "/hero-section/KC2A7302.jpg",
-    title: "Strategic Industry Interface",
-    subtitle: "Practical Impact",
-    description: "Our programmes are anchored on rigorous research and direct industrial engagement to ensure immediate career impact.",
+    title: "No Prior Degree Required",
+    subtitle: "Inclusive Excellence",
+    description: "Our professional diploma programmes are designed for entrepreneurs and professionals ready to upgrade their skills without barriers.",
     cta: "Explore Programmes",
     link: "/programs"
   },
   {
     type: "image",
     src: "/hero-section/KC2A7306.jpg",
-    title: "Elite Executive Education",
-    subtitle: "Leadership Reimagined",
-    description: "Equipping you with the strategic insights needed to navigate complexity and drive transformation in the modern world.",
-    cta: "View Executive Courses",
+    title: "Flexible Learning Pathways",
+    subtitle: "Online & Onsite",
+    description: "Designed for the modern professional. Study from anywhere in the world with our flexible delivery models.",
+    cta: "View Courses",
     link: "/programs"
   }
 ];

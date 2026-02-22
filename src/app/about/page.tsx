@@ -61,7 +61,7 @@ export default function AboutPage() {
               { icon: Scale, label: "Equity", desc: "Constructed on fairness and equal access." },
               { icon: HeartHandshake, label: "Diversity", desc: "Celebrating multi-faceted perspectives." },
             ].map((val, i) => (
-              <div key={i} className="bg-slate-50 p-10 hover:bg-slate-900 hover:text-white transition-all duration-500 group">
+              <div key={i} className="bg-slate-50 p-10 hover:bg-white hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 group border-b-4 border-transparent hover:border-primary">
                 <val.icon className="w-10 h-10 text-primary mb-6 transition-transform group-hover:scale-110" />
                 <h4 className="font-extrabold uppercase text-xs tracking-widest mb-4">{val.label}</h4>
                 <p className="text-sm opacity-60 font-medium leading-relaxed">{val.desc}</p>
@@ -309,7 +309,7 @@ export default function AboutPage() {
                      Our short courses are precisely designed to reflect and fill the skills-gaps and practical knowledge 
                      needs of the contemporary industry landscape.
                    </p>
-                   <a href="/programs" className="px-8 py-4 bg-white text-primary font-black uppercase tracking-widest text-xs hover:bg-slate-900 hover:text-white transition-all">Explore Directory</a>
+                   <a href="/programs" className="px-8 py-4 bg-blue-600 text-primary font-black uppercase tracking-widest text-xs hover:bg-slate-900 hover:text-white transition-all">Explore Directory</a>
                 </div>
              </div>
           </div>

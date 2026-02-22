@@ -12,7 +12,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "Programmes", href: "/programs" },
     { name: "About", href: "/about" },
-    { name: "Admission", href: "#" },
+    { name: "Admission", href: "/admission" },
 
   ];
 
@@ -62,9 +62,11 @@ export default function Navbar() {
                 Contact
               </Button>
             </Link>
-            <Button className="nbu-gradient text-white border-0 font-bold uppercase text-xs tracking-widest h-11 px-8 shadow-lg hover:shadow-primary/20 transition-all">
-              Apply Now
-            </Button>
+            <Link href="/admission">
+              <Button className="nbu-gradient text-white border-0 font-bold uppercase text-xs tracking-widest h-11 px-8 shadow-lg hover:shadow-primary/20 transition-all">
+                Apply Now
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Toggle */}
@@ -85,7 +87,7 @@ export default function Navbar() {
         >
           <div className="flex items-center justify-between mb-12">
             <span className="text-xs font-black uppercase tracking-[0.3em] text-slate-500">Navigation</span>
-            <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 text-slate-500 hover:text-slate-900 transition-colors">
+            <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 text-slate-500 hover:text-primary transition-colors">
               <X className="w-6 h-6" />
             </button>
           </div>

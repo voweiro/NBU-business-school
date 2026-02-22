@@ -76,8 +76,8 @@ export default function Footer() {
               <div className="flex gap-4">
                 <MapPin className="w-5 h-5 text-primary shrink-0" />
                 <p className="text-slate-300 text-sm leading-relaxed font-medium">
-                  Kilometre 10 PH/Aba Expressway,<br />
-                  Asa, Abia State, Nigeria.
+                  Kilometre 10, Port Harcourt-Aba Express way,<br />
+                  Asa, Ukwa West LGA, Abia State, Nigeria.
                 </p>
               </div>
               <div className="flex gap-4 items-center">
@@ -86,7 +86,10 @@ export default function Footer() {
               </div>
               <div className="flex gap-4 items-center">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                <p className="text-slate-300 text-sm font-medium">+234 703 256 5918</p>
+                <div className="flex flex-col">
+                  <p className="text-slate-300 text-sm font-medium">08033382537</p>
+                  <p className="text-slate-300 text-sm font-medium">07036838661</p>
+                </div>
               </div>
             </div>
           </div>

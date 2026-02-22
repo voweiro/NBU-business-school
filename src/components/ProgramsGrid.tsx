@@ -162,8 +162,8 @@ export default function ProgramsGrid({
                   onClick={() => setCurrentPage(i + 1)}
                   className={`w-14 h-14 font-black text-sm uppercase transition-all duration-300 ${
                     currentPage === i + 1
-                    ? "bg-primary text-white scale-110 shadow-lg"
-                    : "bg-white text-slate-500 hover:bg-slate-50 border-2 border-transparent"
+                    ? "bg-primary text-red-600 scale-110 shadow-lg"
+                    : "bg-white text-slate-500 hover:bg-primary/5 hover:text-primary hover:scale-105 transition-all border-2 border-transparent"
                   }`}
                 >
                   {String(i + 1).padStart(2, '0')}
@@ -174,7 +174,7 @@ export default function ProgramsGrid({
             <Button
               variant="outline"
               disabled={currentPage === totalPages}
-              onClick={() => setCurrentPage(p => p - 1)}
+              onClick={() => setCurrentPage(p => p + 1)}
               className="w-14 h-14 rounded-none border-2 border-gray-100 hover:border-primary hover:text-primary transition-all disabled:opacity-30 flex items-center justify-center p-0"
             >
               <ChevronRight className="w-5 h-5" />
