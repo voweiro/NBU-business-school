@@ -4,8 +4,9 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Professional Diploma Programmes",
-  description: "Explore our Senate-approved professional diploma programs in Finance, Digital Marketing, Governance, Supply Chain, and AI.",
+  title: "Professional Diploma Programmes | NBU Business School",
+  description: "Browse our directory of 34+ Senate-approved professional diploma programs. Specialized training in Finance, Technology, Governance, and Management in Nigeria.",
+  keywords: ["Professional Courses Nigeria", "Short Courses for Executives", "Business School Programs", "Diploma in Finance", "Digital Marketing Diploma", "Supply Chain Management"],
 };
 
 export default function ProgramsPage() {

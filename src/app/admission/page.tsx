@@ -13,6 +13,14 @@ import {
   Users
 } from "lucide-react";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Admissions | How to Apply to NBU Business School",
+  description: "Learn about the simplified admission process, entry requirements, and payment details for NBU Business School. Join our professional diploma programs today.",
+  keywords: ["NBU Admission", "Apply to Business School Nigeria", "Professional Diploma Requirements", "Business School Fees", "Executive Education Admission"],
+};
+
 export default function AdmissionPage() {
   return (
     <main className="min-h-screen bg-white">

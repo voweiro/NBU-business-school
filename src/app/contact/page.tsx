@@ -6,8 +6,9 @@ import { Input } from "@/components/ui/input";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
-  description: "Get in touch with NBU Business School for admissions, collaborations, or general inquiries.",
+  title: "Contact Us | NBU Business School Inquiries",
+  description: "Get in touch with NBU Business School. Reach out for admissions, corporate partnerships, or general inquiries. Our campus is located in Asa, Abia State.",
+  keywords: ["Contact NBU", "Business School Abia State", "Admission Enquiries Nigeria", "Educational Partnerships", "NBU Campus Location"],
 };
 
 export default function ContactPage() {

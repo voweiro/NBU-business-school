@@ -56,7 +56,7 @@ export default function ProgramDetailsModal({ program, isOpen, onClose }: Progra
               <div className="absolute inset-0 z-0 opacity-30 grayscale hover:grayscale-0 transition-all duration-1000">
                 <img 
                   src={program.image} 
-                  alt="" 
+                  alt={`${program.title} Background`} 
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-slate-950/40" />

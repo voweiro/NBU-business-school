@@ -10,8 +10,9 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Legacy of Excellence",
-  description: "Learn about NBU Business School's philosophy, mission, and vision to be a world-class British University in Nigeria.",
+  title: "About NBU Business School | Our Philosophy & Governance",
+  description: "Discover the philosophy, mission, and vision of NBU Business School. Learn about our world-class British academic standards and executive leadership in Nigeria.",
+  keywords: ["NBU Philosophy", "Business School Governance", "Academic Excellence", "British University Nigeria", "Leadership", "Mentorship"],
 };
 
 export default function AboutPage() {

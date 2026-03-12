@@ -13,26 +13,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nbu-business-school.vercel.app'), // Replace with actual domain
+  metadataBase: new URL('https://bss.nbu.edu.ng'),
   title: {
     default: "NBU Business School | World-Class Professional Diplomas",
     template: "%s | NBU Business School"
   },
   description: "NBU Business School offers Senate-approved professional diploma programs designed to prepare the next generation of business leaders with practical skills and academic rigor.",
-  keywords: ["Business School", "Professional Diploma", "Executive Education", "Nigeria Business School", "Finance", "Digital Marketing", "Governance", "Supply Chain", "AI"],
+  keywords: ["Business School", "Professional Diploma", "Executive Education", "Nigeria Business School", "Finance", "Digital Marketing", "Governance", "Supply Chain", "AI", "NBU", "Nelson British University"],
   authors: [{ name: "NBU Business School" }],
   creator: "NBU Business School",
   publisher: "NBU Business School",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nbu-business-school.vercel.app",
+    url: "https://bss.nbu.edu.ng",
     title: "NBU Business School | World-Class Professional Diplomas",
     description: "Empowering leaders with rigorous coursework and practical industry engagement.",
     siteName: "NBU Business School",
     images: [
       {
-        url: "/images/og-image.jpg", // Ensure this image exists or use a placeholder
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "NBU Business School Campus",
@@ -57,14 +57,17 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  verification: {
+    google: 'dDso4aMoEoV5jwXMU0gU78S-5fPKdEzroM3x2fBcjDQ',
+  },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CollegeOrUniversity",
   "name": "NBU Business School",
-  "url": "https://nbu-business-school.vercel.app",
-  "logo": "https://nbu-business-school.vercel.app/logo.png",
+  "url": "https://bss.nbu.edu.ng",
+  "logo": "https://bss.nbu.edu.ng/logo.png",
   "sameAs": [
     "https://www.facebook.com/nbubusiness",
     "https://twitter.com/nbubusiness",

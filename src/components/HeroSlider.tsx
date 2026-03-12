@@ -92,6 +92,7 @@ export default function HeroSlider() {
                   muted
                   loop
                   playsInline
+                  aria-label={slide.title}
                   className="w-full h-full object-cover"
                 >
                   <source src={slide.src} type="video/mp4" />
@@ -121,13 +122,23 @@ export default function HeroSlider() {
                   {slide.subtitle}
                 </div>
                 
-                <h1 className="text-5xl md:text-8xl font-black tracking-tight mb-8 leading-[0.9] text-white uppercase italic font-serif">
-                   {slide.title.split(' ').map((word, i) => (
-                     <span key={i} className={i % 2 !== 0 ? "text-primary not-italic font-sans" : ""}>
-                       {word}{' '}
-                     </span>
-                   ))}
-                </h1>
+                {index === 0 ? (
+                  <h1 className="text-5xl md:text-8xl font-black tracking-tight mb-8 leading-[0.9] text-white uppercase italic font-serif">
+                     {slide.title.split(' ').map((word, i) => (
+                       <span key={i} className={i % 2 !== 0 ? "text-primary not-italic font-sans" : ""}>
+                         {word}{' '}
+                       </span>
+                     ))}
+                  </h1>
+                ) : (
+                  <h2 className="text-5xl md:text-8xl font-black tracking-tight mb-8 leading-[0.9] text-white uppercase italic font-serif">
+                     {slide.title.split(' ').map((word, i) => (
+                       <span key={i} className={i % 2 !== 0 ? "text-primary not-italic font-sans" : ""}>
+                         {word}{' '}
+                       </span>
+                     ))}
+                  </h2>
+                )}
                 
                 <p className="max-w-2xl text-lg md:text-xl text-slate-200 mb-12 leading-relaxed font-medium">
                   {slide.description}
