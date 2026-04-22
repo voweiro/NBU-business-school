@@ -31,7 +31,8 @@ export default function Navbar() {
           </div>
           <div className="flex flex-col">
             <span className="font-extrabold text-lg md:text-xl leading-none tracking-tighter text-slate-900 uppercase">
-              NBU <span className="text-[#e62627]">Business</span>
+              NBU <span className="text-[#e62627]">Business</span>{" "}
+              <span>School</span>
             </span>
             <span className="text-[8px] md:text-[10px] font-bold tracking-[0.2em] text-slate-500 mt-1 uppercase">
               Citadel of Excellence
