@@ -65,7 +65,7 @@ export default function AboutPage() {
             <h1 className="text-6xl md:text-8xl font-black mb-10 leading-[0.9] tracking-tighter">
               A LEGACY OF <br />
               <span className="text-primary italic font-serif">
-                EXCELLENCE.
+                EXCELLENCE
               </span>
             </h1>
             <p className="text-2xl text-slate-300 leading-relaxed font-light max-w-2xl border-l border-white/10 pl-8">
@@ -236,7 +236,7 @@ export default function AboutPage() {
             <h2 className="text-4xl md:text-5xl font-black text-slate-950 uppercase leading-none shrink-0">
               Core{" "}
               <span className="text-primary italic font-serif">
-                Objectives.
+                Objectives
               </span>
             </h2>
             <p className="text-slate-700 max-w-lg font-medium">
@@ -494,7 +494,7 @@ export default function AboutPage() {
               <div className="-skew-y-1">
                 <h3 className="text-3xl font-black mb-8 leading-tight">
                   FILLING THE <br />
-                  SKILL-GAP.
+                  SKILL-GAP
                 </h3>
                 <p className="text-white/80 font-bold mb-10 leading-relaxed">
                   Our short courses are precisely designed to reflect and fill

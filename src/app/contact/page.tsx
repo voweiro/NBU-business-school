@@ -29,7 +29,7 @@ export default function ContactPage() {
             </div>
             <h1 className="text-5xl md:text-7xl font-black mb-8 leading-none">
               CONTACT <br />
-              <span className="text-primary italic font-serif">US.</span>
+              <span className="text-primary italic font-serif">US</span>
             </h1>
             <p className="text-xl text-slate-300 leading-relaxed font-light">
               Our team is here to support your professional journey. Reach out for admissions, collaborations, or general inquiries.

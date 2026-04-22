@@ -33,7 +33,7 @@ export default function ProgramsPage() {
           </div>
           <h1 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
             OUR{" "}
-            <span className="text-primary italic font-serif">PROGRAMMES.</span>
+            <span className="text-primary italic font-serif">PROGRAMMES</span>
           </h1>
           <p className="text-slate-300 text-xl max-w-2xl leading-relaxed">
             Explore our comprehensive directory of professional Certificate and

@@ -78,7 +78,19 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-body), 'Open Sans', sans-serif;
     font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading), 'Montserrat', sans-serif;
+  }
+  /* Override Tailwind font-serif (used for italic titles) to Montserrat */
+  .font-serif {
+    font-family: var(--font-heading), 'Montserrat', sans-serif !important;
+  }
+  /* Override Tailwind font-sans to use Open Sans */
+  .font-sans {
+    font-family: var(--font-body), 'Open Sans', sans-serif !important;
   }
 }
 

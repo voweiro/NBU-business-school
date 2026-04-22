@@ -46,7 +46,7 @@ export default function AdmissionPage() {
 
             <h1 className="text-5xl md:text-8xl font-black tracking-tight mb-8 leading-[0.9] uppercase italic font-serif">
               Step Into Your <br />
-              <span className="text-primary not-italic font-sans">Future.</span>
+              <span className="text-primary not-italic font-sans">Future</span>
             </h1>
 
             <p className="max-w-medium text-lg md:text-xl text-slate-300 mb-12 leading-relaxed font-medium">
@@ -74,7 +74,7 @@ export default function AdmissionPage() {
                 <span className="text-primary italic font-serif">
                   Without
                 </span>{" "}
-                Barriers.
+                Barriers
               </h2>
               <p className="text-lg text-slate-800 leading-relaxed font-medium mb-12">
                 Designed for entrepreneurs, professionals, and ambitious
@@ -149,7 +149,7 @@ export default function AdmissionPage() {
             </h2>
             <h3 className="text-4xl md:text-5xl font-black text-slate-950 uppercase leading-tight">
               A Simplified{" "}
-              <span className="text-primary italic font-serif">Journey.</span>
+              <span className="text-primary italic font-serif">Journey</span>
             </h3>
           </div>
 
@@ -217,7 +217,7 @@ export default function AdmissionPage() {
                 <h3 className="text-4xl font-black text-slate-950 uppercase leading-tight mb-8">
                   Payment{" "}
                   <span className="text-primary italic font-serif">
-                    Details.
+                    Details
                   </span>
                 </h3>
                 <p className="text-slate-700 font-medium mb-12 leading-relaxed">

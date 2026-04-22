@@ -23,7 +23,7 @@ export default function Home() {
                </div>
                <h2 className="text-4xl md:text-5xl font-black text-slate-950 mb-10 leading-[1.1] uppercase tracking-tight">
                   Welcome to <br />
-                  <span className="text-primary italic font-serif">NBU Business School.</span>
+                  <span className="text-primary italic font-serif">NBU Business School</span>
                </h2>
                <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
                   <p>
@@ -100,7 +100,7 @@ export default function Home() {
                 <span className="text-[10px] font-black uppercase tracking-[0.4em] text-primary">Institutional North Star</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-black text-slate-950 mb-10 leading-[1.1] uppercase">
-                Bridging Academic <br />Excellence <span className="text-primary italic font-serif">With</span> Industry.
+                Bridging Academic <br />Excellence <span className="text-primary italic font-serif">With</span> Industry
               </h2>
               <p className="text-lg text-slate-800 leading-relaxed font-medium mb-12 max-w-xl">
                 NBU Business School is anchored on the vision to be a world-class British University in Nigeria, 
@@ -184,7 +184,7 @@ export default function Home() {
           <div className="max-w-3xl mb-16">
             <h2 className="text-[10px] font-black uppercase tracking-[0.4em] text-primary mb-4">Elite Education</h2>
             <h3 className="text-4xl md:text-5xl font-black text-slate-950 uppercase leading-none">
-              Flagship <span className="text-primary italic font-serif">Programmes.</span>
+              Flagship <span className="text-primary italic font-serif">Programmes</span>
             </h3>
           </div>
            <ProgramsGrid limit={6} showSearchFilter={false} hideHeader={true} />
@@ -202,7 +202,7 @@ export default function Home() {
               <h2 className="text-5xl md:text-6xl font-black mb-10 leading-[0.9] uppercase tracking-tighter">
                 FLEXIBLE <br />
                 <span className="text-primary italic font-serif">LEARNING</span> <br />
-                ARCHITECTURE.
+                ARCHITECTURE
               </h2>
               <p className="text-xl text-slate-300 font-medium leading-relaxed max-w-md">
                 We bridge the gap between busy professionals and world-class education with multiple modes of delivery.
