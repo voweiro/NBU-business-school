@@ -123,7 +123,7 @@ export default function HeroSlider() {
                 </div>
                 
                 {index === 0 ? (
-                  <h1 className="text-5xl md:text-8xl font-black tracking-tight mb-8 leading-[0.9] text-white uppercase italic font-serif">
+                  <h1 className="text-3xl md:text-4xl font-black tracking-tight mb-8 leading-[0.9] text-white uppercase italic font-serif">
                      {slide.title.split(' ').map((word, i) => (
                        <span key={i} className={i % 2 !== 0 ? "text-primary not-italic font-sans" : ""}>
                          {word}{' '}
@@ -131,7 +131,7 @@ export default function HeroSlider() {
                      ))}
                   </h1>
                 ) : (
-                  <h2 className="text-5xl md:text-8xl font-black tracking-tight mb-8 leading-[0.9] text-white uppercase italic font-serif">
+                  <h2 className="text-3xl md:text-4xl font-black tracking-tight mb-8 leading-[0.9] text-white uppercase italic font-serif">
                      {slide.title.split(' ').map((word, i) => (
                        <span key={i} className={i % 2 !== 0 ? "text-primary not-italic font-sans" : ""}>
                          {word}{' '}

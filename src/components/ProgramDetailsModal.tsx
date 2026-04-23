@@ -4,6 +4,7 @@ import {
   Dialog,
   DialogContent,
 } from "@/components/ui/dialog";
+import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
@@ -224,10 +225,12 @@ export default function ProgramDetailsModal({ program, isOpen, onClose }: Progra
                    <Button variant="outline" className="flex-1 md:flex-none h-12 md:h-14 px-6 md:px-8 border-2 border-slate-950 font-black uppercase text-[10px] md:text-xs tracking-[0.2em] rounded-none hover:bg-blue-600 hover:border-blue-600 hover:text-red-600 transition-all">
                       Enquire
                    </Button>
+                   <Link href="https://docs.google.com/forms/d/e/1FAIpQLScam_49YAhvYJiDblu-LL9f4Wb6XEZR0X7x3sxo_-7BKciUzg/viewform?usp=header">
                    <Button className="flex-[2] md:flex-none nbu-gradient text-white h-12 md:h-14 px-8 md:px-12 font-black uppercase text-[10px] md:text-xs tracking-[0.2em] rounded-none shadow-xl shadow-primary/20 group">
                       Apply Online
                       <ArrowRight className="ml-2 md:ml-3 w-3.5 h-3.5 md:w-4 md:h-4 group-hover:translate-x-1 transition-all" />
                    </Button>
+                   </Link>
                 </div>
             </div>
           </div>

@@ -13,6 +13,8 @@ export default function Navbar() {
     { name: "About", href: "/about" },
     { name: "Programmes", href: "/programs" },
     { name: "Admission", href: "/admission" },
+    { name: "News", href: "/news" },
+    { name: "Donors", href: "/donors" },
   ];
 
   return (
@@ -63,7 +65,7 @@ export default function Navbar() {
                 Contact
               </Button>
             </Link>
-            <Link href="/admission">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScam_49YAhvYJiDblu-LL9f4Wb6XEZR0X7x3sxo_-7BKciUzg/viewform?usp=header">
               <Button className="nbu-gradient text-white border-0 font-bold uppercase text-xs tracking-widest h-11 px-8 shadow-lg hover:shadow-primary/20 transition-all">
                 Apply Now
               </Button>
