@@ -31,7 +31,7 @@ export default function ProgramsPage() {
               Academic Excellence
             </span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
+          <h1 className="text-3xl md:text-4xl font-black mb-8 leading-tight">
             OUR{" "}
             <span className="text-primary italic font-serif">PROGRAMMES</span>
           </h1>

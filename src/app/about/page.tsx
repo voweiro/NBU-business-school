@@ -62,11 +62,9 @@ export default function AboutPage() {
                 NBU Business School
               </span>
             </div>
-            <h1 className="text-6xl md:text-8xl font-black mb-10 leading-[0.9] tracking-tighter">
+            <h1 className="text-3xl md:text-4xl font-black mb-10 leading-[0.9] tracking-tighter">
               A LEGACY OF <br />
-              <span className="text-primary italic font-serif">
-                EXCELLENCE
-              </span>
+              <span className="text-primary italic font-serif">EXCELLENCE</span>
             </h1>
             <p className="text-2xl text-slate-300 leading-relaxed font-light max-w-2xl border-l border-white/10 pl-8">
               World-class academic excellence distinguished by a robust
@@ -235,9 +233,7 @@ export default function AboutPage() {
           <div className="flex flex-col md:flex-row justify-between items-start mb-20 gap-10">
             <h2 className="text-4xl md:text-5xl font-black text-slate-950 uppercase leading-none shrink-0">
               Core{" "}
-              <span className="text-primary italic font-serif">
-                Objectives
-              </span>
+              <span className="text-primary italic font-serif">Objectives</span>
             </h2>
             <p className="text-slate-700 max-w-lg font-medium">
               To continuously update the technical skills and competences of

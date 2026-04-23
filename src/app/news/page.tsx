@@ -1,6 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ArrowRight, Calendar, ChevronRight, Newspaper, Rss, ArrowUpRight, Megaphone, Clock } from "lucide-react";
+import {
+  ArrowRight,
+  Calendar,
+  ChevronRight,
+  Newspaper,
+  Rss,
+  ArrowUpRight,
+  Megaphone,
+  Clock,
+} from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,9 +20,21 @@ export const metadata: Metadata = {
     "Stay updated with the latest news, events, and announcements from Nigerian British University Business School.",
 };
 
-const NEWS_ARTICLES: Array<{ category: string; date: string; title: string; excerpt: string; image: string; }> = [];
+const NEWS_ARTICLES: Array<{
+  category: string;
+  date: string;
+  title: string;
+  excerpt: string;
+  image: string;
+}> = [];
 
-const UPCOMING_EVENTS: Array<{ day: string; month: string; title: string; time: string; location: string; }> = [];
+const UPCOMING_EVENTS: Array<{
+  day: string;
+  month: string;
+  title: string;
+  time: string;
+  location: string;
+}> = [];
 
 export default function NewsPage() {
   return (
@@ -34,12 +55,13 @@ export default function NewsPage() {
                 Insights & Updates
               </span>
             </div>
-            <h1 className="text-6xl md:text-8xl font-black mb-10 leading-[0.9] tracking-tighter">
+            <h1 className="text-3xl md:text-4xl font-black mb-10 leading-[0.9] tracking-tighter">
               NEWS <span className="text-primary">&</span> <br />
               <span className="italic font-serif">EVENTS</span>
             </h1>
             <p className="text-2xl text-slate-300 leading-relaxed font-light max-w-2xl border-l border-white/10 pl-8">
-              Stay informed about our latest academic breakthroughs, institutional achievements, and community highlights.
+              Stay informed about our latest academic breakthroughs,
+              institutional achievements, and community highlights.
             </p>
           </div>
         </div>
@@ -49,7 +71,6 @@ export default function NewsPage() {
       <section className="py-24 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
-            
             {/* Latest News Articles */}
             <div className="lg:col-span-2">
               <div className="flex items-center justify-between mb-12">
@@ -57,7 +78,10 @@ export default function NewsPage() {
                   <Newspaper className="text-primary w-8 h-8" />
                   Latest Headlines
                 </h3>
-                <Link href="#" className="hidden md:flex items-center text-sm font-bold uppercase tracking-widest text-primary hover:text-slate-900 transition-colors">
+                <Link
+                  href="#"
+                  className="hidden md:flex items-center text-sm font-bold uppercase tracking-widest text-primary hover:text-slate-900 transition-colors"
+                >
                   View All News <ArrowRight className="w-4 h-4 ml-2" />
                 </Link>
               </div>
@@ -65,10 +89,13 @@ export default function NewsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {NEWS_ARTICLES.length > 0 ? (
                   NEWS_ARTICLES.map((article, i) => (
-                    <div key={i} className="bg-white border border-slate-100 group hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 overflow-hidden flex flex-col">
+                    <div
+                      key={i}
+                      className="bg-white border border-slate-100 group hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 overflow-hidden flex flex-col"
+                    >
                       <div className="relative h-60 w-full overflow-hidden">
-                        <Image 
-                          src={article.image} 
+                        <Image
+                          src={article.image}
                           alt={article.title}
                           fill
                           className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -78,15 +105,21 @@ export default function NewsPage() {
                         </div>
                       </div>
                       <div className="p-8 flex flex-col flex-grow">
-                        <span className="text-xs font-bold text-slate-400 mb-4">{article.date}</span>
+                        <span className="text-xs font-bold text-slate-400 mb-4">
+                          {article.date}
+                        </span>
                         <h4 className="text-xl font-black text-slate-900 mb-4 leading-tight group-hover:text-primary transition-colors">
                           {article.title}
                         </h4>
                         <p className="text-slate-600 text-sm leading-relaxed mb-6 flex-grow">
                           {article.excerpt}
                         </p>
-                        <Link href="#" className="flex items-center text-xs font-black uppercase tracking-widest text-slate-900 group-hover:text-primary transition-colors mt-auto">
-                          Read Full Story <ArrowUpRight className="w-4 h-4 ml-2" />
+                        <Link
+                          href="#"
+                          className="flex items-center text-xs font-black uppercase tracking-widest text-slate-900 group-hover:text-primary transition-colors mt-auto"
+                        >
+                          Read Full Story{" "}
+                          <ArrowUpRight className="w-4 h-4 ml-2" />
                         </Link>
                       </div>
                     </div>
@@ -94,8 +127,12 @@ export default function NewsPage() {
                 ) : (
                   <div className="col-span-full py-20 text-center border-2 border-dashed border-slate-200 bg-white flex flex-col items-center justify-center">
                     <Newspaper className="w-12 h-12 text-slate-300 mb-4" />
-                    <h4 className="text-lg font-bold text-slate-900 mb-2">No News Available</h4>
-                    <p className="text-slate-500 font-medium">Check back later for the latest updates and announcements.</p>
+                    <h4 className="text-lg font-bold text-slate-900 mb-2">
+                      No News Available
+                    </h4>
+                    <p className="text-slate-500 font-medium">
+                      Check back later for the latest updates and announcements.
+                    </p>
                   </div>
                 )}
               </div>
@@ -109,20 +146,29 @@ export default function NewsPage() {
                   Upcoming Events
                 </h3>
               </div>
-              
+
               <div className="bg-slate-950 text-white p-8 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-primary/20 blur-3xl rounded-full" />
-                
+
                 <div className="space-y-8 relative z-10">
                   {UPCOMING_EVENTS.length > 0 ? (
                     UPCOMING_EVENTS.map((event, i) => (
-                      <div key={i} className="flex gap-6 group cursor-pointer border-b border-white/10 pb-8 last:border-0 last:pb-0">
+                      <div
+                        key={i}
+                        className="flex gap-6 group cursor-pointer border-b border-white/10 pb-8 last:border-0 last:pb-0"
+                      >
                         <div className="flex flex-col items-center justify-center bg-white/5 border border-white/10 min-w-[70px] h-[70px] group-hover:bg-primary group-hover:border-primary transition-colors">
-                          <span className="text-2xl font-black leading-none">{event.day}</span>
-                          <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white transition-colors">{event.month}</span>
+                          <span className="text-2xl font-black leading-none">
+                            {event.day}
+                          </span>
+                          <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white transition-colors">
+                            {event.month}
+                          </span>
                         </div>
                         <div>
-                          <h5 className="font-bold text-lg mb-2 leading-tight group-hover:text-primary transition-colors">{event.title}</h5>
+                          <h5 className="font-bold text-lg mb-2 leading-tight group-hover:text-primary transition-colors">
+                            {event.title}
+                          </h5>
                           <div className="flex items-center text-xs text-slate-400 mb-1">
                             <Clock className="w-3 h-3 mr-2" /> {event.time}
                           </div>
@@ -135,7 +181,9 @@ export default function NewsPage() {
                   ) : (
                     <div className="py-8 text-center border border-white/10 bg-white/5">
                       <Calendar className="w-8 h-8 text-slate-500 mx-auto mb-3" />
-                      <p className="text-slate-400 text-sm font-medium">No upcoming events scheduled.</p>
+                      <p className="text-slate-400 text-sm font-medium">
+                        No upcoming events scheduled.
+                      </p>
                     </div>
                   )}
                 </div>
@@ -147,7 +195,6 @@ export default function NewsPage() {
                 )}
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -162,17 +209,19 @@ export default function NewsPage() {
               Never Miss An Update
             </h2>
             <p className="text-xl font-medium text-white/90 mb-12">
-              Subscribe to the NBU Business School newsletter to receive the latest news, event invitations, and research insights directly in your inbox.
+              Subscribe to the NBU Business School newsletter to receive the
+              latest news, event invitations, and research insights directly in
+              your inbox.
             </p>
             <form className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
-              <input 
-                type="email" 
-                placeholder="Enter your email address" 
+              <input
+                type="email"
+                placeholder="Enter your email address"
                 className="flex-grow px-6 py-4 bg-white/10 border border-white/20 text-white placeholder:text-white/50 focus:outline-none focus:border-white focus:bg-white/20 transition-all font-medium"
                 required
               />
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className="px-8 py-4 bg-slate-950 text-white font-black uppercase text-xs tracking-widest hover:bg-white hover:text-slate-950 transition-colors"
               >
                 Subscribe

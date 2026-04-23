@@ -44,7 +44,7 @@ export default function AdmissionPage() {
               Admissions 2026
             </div>
 
-            <h1 className="text-5xl md:text-8xl font-black tracking-tight mb-8 leading-[0.9] uppercase italic font-serif">
+            <h1 className="text-3xl md:text-4xl font-black tracking-tight mb-8 leading-[0.9] uppercase italic font-serif">
               Step Into Your <br />
               <span className="text-primary not-italic font-sans">Future</span>
             </h1>
